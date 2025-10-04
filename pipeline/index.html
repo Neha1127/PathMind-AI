@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Layout Viewer — Centroids, Corridors & Single Route</title>
+  <style>
+    :root { --btn-radius:10px; --pane-w:1200px; --pane-h:780px; }
+    html,body{
+      margin:0; padding:0; height:100%; background:#eee;
+      font-family:system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      display:flex; flex-direction:column; align-items:center;
+    }
+    #controls{
+      width:var(--pane-w);
+      display:flex; gap:12px 12px; flex-wrap:wrap; margin:12px 0 6px;
+    }
+    button{
+      padding:8px 14px; font-size:16px; font-weight:700; letter-spacing:.2px;
+      border:none; border-radius:var(--btn-radius); color:#fff; cursor:pointer;
+      box-shadow:0 2px 8px #0001; transition:filter .15s, transform .04s;
+    }
+    button:active{ transform:translateY(1px); }
+    #btnCentroids{ background:#07a357; }
+    #btnConnectors{ background:#f29e02; }
+    #btnCorridors{ background:#5c30ee; }
+    #btnRoute{ background:#c81763; }
+    #btnDownloadHits{ background:#444; }
+    #btnDownloadAll{ background:#2d7; }
+    button.active{ filter:saturate(140%); }
+    #tinyStats{
+      width:var(--pane-w); margin:0 0 8px;
+      font:14px/1.3 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color:#333;
+    }
+    #viewport{
+      width:var(--pane-w); height:var(--pane-h); border:2px solid #333; background:#fff;
+      overflow:auto; position:relative; border-radius:10px;
+    }
+    #container{ position:relative; user-select:none; transform-origin:top left; }
+    #bgimg,#svg{ position:absolute; left:0; top:0; width:100%; height:100%; pointer-events:none; }
+    .unit{ fill:rgba(0,150,255,.10); stroke:#0008; stroke-width:4; pointer-events:auto; }
+    .unit:hover{ fill:rgba(0,200,0,.18); stroke:#d00; }
+    .unit.selected{ fill:rgba(255,0,0,.18); stroke:#d00; }
+    .centroid-dot{ fill:#e22; stroke:#fff; stroke-width:2; display:none; }
+    .centroid-dot.show{ display:block; }
+    .connector{ stroke:#26c148; stroke-width:16; stroke-linecap:butt; opacity:.9; display:none; }
+    .connector.show{ display:inline; }
+    .corr{ fill:none; stroke:#cc22cc; stroke-width:8; stroke-linecap:butt; stroke-linejoin:round; display:none; }
+    .corr.show{ display:inline; }
+    .route{ fill:none; stroke:#c81763; stroke-width:10; stroke-linecap:butt; stroke-linejoin:round; display:none; }
+    #label{
+      position:fixed; z-index:10; pointer-events:none; display:none;
+      background:#fff; color:#063; border:1px solid #aaa; border-radius:10px;
+      padding:6px 10px; font:16px/1.35 ui-monospace, Menlo, Consolas, monospace;
+      box-shadow:0 4px 12px #0002; white-space:pre-wrap; max-width:420px;
+    }
+    /* ===== backend panel ===== */
+    #backendPanel{
+      width:var(--pane-w); box-sizing:border-box; margin:6px 0 10px;
+      display:grid; grid-template-columns: 1fr 1fr 1fr auto auto auto auto 1fr; gap:10px; align-items:center;
+      font:14px/1.3 ui-monospace, Menlo, Consolas, monospace; color:#222;
+    }
+    #backendPanel input{
+      padding:8px 10px; border:1px solid #bbb; border-radius:10px; font-size:14px; background:#fff;
+    }
+    #btnQueue, #btnQueueText, #btnDoDelete, #btnRefresh, #btnUndo{
+      padding:8px 12px; border:none; border-radius:10px; color:#fff; cursor:pointer;
+      font-weight:700; letter-spacing:.2px; box-shadow:0 2px 8px #0001;
+    }
+    #btnQueue{ background:#0a7bd7; }
+    #btnQueueText{ background:#7b3fe4; }
+    #btnDoDelete{ background:#c21d3a; }
+    #btnRefresh{ background:#3b7; }
+    #btnUndo{ background:#088; }
+    #apiStatus{ justify-self:end; font-size:12px; opacity:.9; }
+    #delList{
+      grid-column: 1 / -1; margin:0; padding:6px 0 0; list-style:none; display:flex; flex-wrap:wrap; gap:8px;
+    }
+    #delList li{
+      background:#fff; border:1px solid #ccc; border-radius:999px; padding:6px 10px; display:flex; gap:10px; align-items:center;
+    }
+    .pillX{ background:#e33; color:#fff; border:none; border-radius:999px; font-size:12px; padding:2px 8px; cursor:pointer; }
+    @media (min-width: 1400px){
+      button{ font-size:18px; padding:10px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="controls">
+    <button id="btnCentroids">Show Centroids</button>
+    <button id="btnConnectors">Show Connectors</button>
+    <button id="btnCorridors">Show Corridors (magenta)</button>
+    <button id="btnRoute">Show Single Route (safe)</button>
+    <button id="btnDownloadHits" title="Download intersections JSON">Download Hits JSON</button>
+    <button id="btnDownloadAll" title="Download consolidated project JSON">Download Project JSON</button>
+  </div>
+
+  <div id="backendPanel">
+    <input id="inBlock" placeholder="Block (e.g., Block_1)" />
+    <input id="inUnit"  placeholder="Unit (e.g., Unit_3)" />
+    <input id="inText"  placeholder="Exact label text (optional)" />
+    <button id="btnQueue"      title="Add Block/Unit">Queue</button>
+    <button id="btnQueueText"  title="Find by exact text & queue">Queue by Text</button>
+    <button id="btnDoDelete"   title="Send delete to backend" disabled>Delete (backend)</button>
+    <button id="btnUndo"       title="Restore last deleted batch" disabled>Undo Last Delete</button>
+    <button id="btnRefresh"    title="Rebuild the 3 JSONs (exits, corridors, route)">Rebuild JSONs</button>
+    <div id="apiStatus">API: checking…</div>
+    <ul id="delList"></ul>
+  </div>
+
+  <div id="tinyStats">units:… centroids:… connectors:… polylines:… routePts:…</div>
+
+  <div id="viewport">
+    <div id="container" style="width:10px;height:10px;">
+      <img id="bgimg" src="Ground Floor Plan_page-0001.jpg" alt="">
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+        <g id="gUnits"></g>
+        <g id="gCentroids"></g>
+        <g id="gConnectors"></g>
+        <g id="gCorridors"></g>
+        <g id="gRoute"></g>
+      </svg>
+    </div>
+  </div>
+
+  <div id="label"></div>
+
+<!-- ===== Viewer & rendering ===== -->
+<script>
+(function(){
+  const PATHS = {
+    units: 'out/points_with_centroid.json',
+    exits: 'out/centroid_to_corridor_exit.json',
+    polyl: 'out/corridor_polylines.json',
+    route: 'out/postman_route.json'
+  };
+
+  const vp = document.getElementById('viewport');
+  const box= document.getElementById('container');
+  const bg = document.getElementById('bgimg');
+  const svg= document.getElementById('svg');
+  const gU = document.getElementById('gUnits');
+  const gC = document.getElementById('gCentroids');
+  const gN = document.getElementById('gConnectors');
+  const gP = document.getElementById('gCorridors');
+  const gR = document.getElementById('gRoute');
+  const label = document.getElementById('label');
+  const tiny  = document.getElementById('tinyStats');
+  const bCent = document.getElementById('btnCentroids');
+  const bConn = document.getElementById('btnConnectors');
+  const bCorr = document.getElementById('btnCorridors');
+  const bRoute= document.getElementById('btnRoute');
+
+  let SCALE=1, CANVAS_W=10, CANVAS_H=10;
+  function fitToViewport(){
+    const sx = vp.clientWidth / CANVAS_W;
+    const sy = vp.clientHeight/ CANVAS_H;
+    SCALE = Math.min(sx, sy);
+    box.style.transform = `scale(${SCALE})`;
+    vp.scrollLeft=0; vp.scrollTop=0;
+  }
+  vp.addEventListener('wheel', e=>{
+    if(!e.ctrlKey) return;
+    e.preventDefault();
+    const delta = e.deltaY<0?1.08:0.92;
+    const ns = Math.max(0.1, Math.min(5, SCALE*delta));
+    const rect = box.getBoundingClientRect();
+    const offX = e.clientX-rect.left, offY = e.clientY-rect.top;
+    const relX = offX/SCALE, relY = offY/SCALE;
+    SCALE=ns; box.style.transform=`scale(${SCALE})`;
+    vp.scrollLeft = (relX*SCALE)-offX;
+    vp.scrollTop  = (relY*SCALE)-offY;
+  }, {passive:false});
+  window.addEventListener('resize', fitToViewport);
+
+  const NS="http://www.w3.org/2000/svg";
+  const pathD = (pts)=> pts && pts.length ? 'M'+pts.map(p=>`${p[0]},${p[1]}`).join(' L ') : '';
+  const bust = (p)=> `${p}?v=${Date.now()}`;
+  async function loadJSON(p){ const r = await fetch(bust(p)); if(!r.ok) throw new Error(p); return r.json(); }
+  function showTip(e, text){ label.textContent=text||''; label.style.display=text?'block':'none'; moveTip(e); }
+  function moveTip(e){ label.style.left=(e.clientX+14)+'px'; label.style.top=(e.clientY+10)+'px'; }
+
+  function renderStats(){
+    const units = window.unitsData || [];
+    const centroidCount = units.filter(u=>Array.isArray(u.centroid)&&u.centroid.length===2).length;
+    const polyl = (window.polylData?.polylines)||[];
+    const route = window.routeLine||[];
+    const conCount = (window.routeSegments||[]).length;
+    tiny.textContent=`units:${units.length} centroids:${centroidCount} connectors:${conCount} polylines:${polyl.length} routePts:${route.length}`;
+  }
+
+  function downloadJSON(data, name='route_hits.json'){
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+    a.download=name; a.click(); URL.revokeObjectURL(a.href);
+  }
+  function ts(){ const d=new Date(), z=n=>String(n).padStart(2,'0'); return `${d.getFullYear()}${z(d.getMonth()+1)}${z(d.getDate())}_${z(d.getHours())}${z(d.getMinutes())}${z(d.getSeconds())}`; }
+  window.downloadRouteHits = function(){
+    if (Array.isArray(window.routeHits) && window.routeHits.length){
+      downloadJSON(window.routeHits, `route_hits_${ts()}.json`);
+    } else { alert('No route intersections available to download.'); }
+  };
+
+  function norm(a){ return Math.hypot(a[0],a[1]); }
+  function normalize(v){ const n=norm(v)||1; return [v[0]/n, v[1]/n]; }
+  function raySegmentIntersect(C, dir, A, B, eps=1e-9){
+    const r = [B[0]-A[0], B[1]-A[1]];
+    const s = dir;
+    const rxs = r[0]*s[1] - r[1]*s[0];
+    const q_p = [C[0]-A[0], C[1]-A[1]];
+    if (Math.abs(rxs) < eps) return null;
+    const u = (q_p[0]*s[1] - q_p[1]*s[0]) / rxs;
+    const t = (q_p[0]*r[1] - q_p[1]*r[0]) / rxs;
+    if (u < -eps || u > 1+eps || t < -eps) return null;
+    return { pt: [A[0]+u*r[0], A[1]+u*r[1]], tRay:t };
+  }
+
+// ---- snapping + key normalization helpers ----
+const SNAP_DIST = 140;            // pixels (80–180 tune kar sakte ho)
+const SNAP_DIST2 = SNAP_DIST*SNAP_DIST;
+
+function normKey(b,u){
+  const n = v => String(v ?? '').trim().replace(/\s+/g,' ').toLowerCase();
+  return n(b) + '|' + n(u);
+}
+
+function closestPointOnSeg(P, A, B){
+  const APx = P[0]-A[0], APy = P[1]-A[1];
+  const ABx = B[0]-A[0], ABy = B[1]-A[1];
+  const ab2 = ABx*ABx + ABy*ABy;
+  if (ab2 === 0){
+    const dx = APx, dy = APy;
+    return { pt:[A[0],A[1]], t:0, dist2: dx*dx + dy*dy };
+  }
+  let t = (APx*ABx + APy*ABy) / ab2;
+  t = Math.max(0, Math.min(1, t));
+  const px = A[0] + t*ABx;
+  const py = A[1] + t*ABy;
+  const dx = P[0]-px, dy = P[1]-py;
+  return { pt:[px,py], t, dist2: dx*dx + dy*dy };
+}
+
+
+  // Build connectors: exit-based sampling + ray-to-route (fallback: nearest projection)
+function buildCentroidToRouteLinks(units, exits, routeLine){
+  const links = [];
+  if (!Array.isArray(units)) return links;
+
+  // exits ko map me normalize karke rakho (spaces/case-insensitive)
+  const exitsByKey = new Map();
+  if (Array.isArray(exits)){
+    for (const e of exits){
+      if (!e) continue;
+      const k = normKey(e.block, e.unit);
+      const prev = exitsByKey.get(k);
+      if (!prev || (e.is_corridor && !prev.is_corridor)) exitsByKey.set(k, e);
+    }
+  }
+
+  const hasRoute = Array.isArray(routeLine) && routeLine.length >= 2;
+
+  // helper: project any point to nearest point on route
+  function projectToRoute(P){
+    let bestD2 = Infinity, bestPt = null;
+    for (let i=0;i<routeLine.length-1;i++){
+      const c = closestPointOnSeg(P, routeLine[i], routeLine[i+1]);
+      if (c.dist2 < bestD2){ bestD2 = c.dist2; bestPt = c.pt; }
+    }
+    return { pt: bestPt, d2: bestD2 };
+  }
+
+  for (const u of units){
+    const e = exitsByKey.get(normKey(u.block, u.unit));
+
+    // centroid compulsory
+    if (!u || !Array.isArray(u.centroid) || u.centroid.length !== 2) continue;
+    const C = [u.centroid[0], u.centroid[1]];
+
+    // optional exit point
+    const hasExit = e && Array.isArray(e.exit_point) && e.exit_point.length === 2;
+    const E = hasExit ? [e.exit_point[0], e.exit_point[1]] : null;
+
+    const labelTxt = (u.best_text ?? u.text ?? u.name ?? '').toString().trim();
+
+    let used = 'none';
+    let hit  = E || C;   // default
+    let tval = null;
+
+    // 1) Pehle try: centroid → exit ki direction me ray ∩ route
+    if (hasRoute && hasExit){
+      const dir = normalize([E[0]-C[0], E[1]-C[1]]);
+      if (isFinite(dir[0]) && isFinite(dir[1])){
+        let best = null;
+        for (let i=0;i<routeLine.length-1;i++){
+          const h = raySegmentIntersect(C, dir, routeLine[i], routeLine[i+1]);
+          if (!h || h.tRay < 0) continue;
+          if (!best || h.tRay < best.tRay) best = h;
+        }
+        if (best){ used='route'; hit=best.pt; tval=best.tRay; }
+      }
+    }
+
+    // 2) Agar ray miss ho gaya (ya exit hi nahi hai): route present ho to hamesha snap karo
+    if (hasRoute && used === 'none'){
+      const cProj = projectToRoute(C);
+      const eProj = hasExit ? projectToRoute(E) : { pt:null, d2:Infinity };
+      if (cProj.pt && (!eProj.pt || cProj.d2 <= eProj.d2)){
+        used = 'snapC';
+        hit  = cProj.pt;
+      } else if (eProj.pt){
+        used = 'snapE';
+        hit  = eProj.pt;
+      }
+    }
+
+    // 3) Route hi nahi hai to local fallback
+    if (used === 'none'){
+      if (hasExit){ used = 'exit'; hit = E; }
+      else {       used = 'centroid'; hit = C; }
+    }
+
+    links.push({
+      block: u.block, unit: u.unit, label: labelTxt,
+      from: C, to: hit, hit, tRay: tval, source: used
+    });
+  }
+  return links;
+}
+
+  function drawUnits(units){
+    gU.innerHTML=''; gC.innerHTML='';
+    units.forEach(u=>{
+      const blk = String(u.block ?? '');
+      const unt = String(u.unit  ?? '');
+      const labelTxt = (u.best_text ?? u.text ?? u.name ?? '').toString().trim();
+
+      if(Array.isArray(u.polygon_points) && u.polygon_points.length>=3){
+        const poly=document.createElementNS(NS,'polygon');
+        poly.setAttribute('points', u.polygon_points.map(([x,y])=>`${x},${y}`).join(' '));
+        poly.setAttribute('class','unit');
+        poly.dataset.block = blk; poly.dataset.unit = unt; poly.dataset.label = labelTxt;
+
+        poly.addEventListener('mouseenter', ev=>showTip(ev,labelTxt));
+        poly.addEventListener('mousemove',  moveTip);
+        poly.addEventListener('mouseleave', ()=>label.style.display='none');
+
+        poly.addEventListener('click', ev=>{
+          ev.stopPropagation();
+          const nowSel = !poly.classList.contains('selected');
+          poly.classList.toggle('selected', nowSel);
+          document.dispatchEvent(new CustomEvent('unit-click', {
+            detail:{ block: blk, unit: unt, label: labelTxt, selected: nowSel }
+          }));
+        });
+
+        gU.appendChild(poly);
+      }
+
+      if(Array.isArray(u.centroid)&&u.centroid.length===2){
+        const dot=document.createElementNS(NS,'circle');
+        dot.setAttribute('cx',u.centroid[0]); dot.setAttribute('cy',u.centroid[1]); dot.setAttribute('r',22);
+        dot.setAttribute('class','centroid-dot');
+        dot.addEventListener('mouseenter', ev=>showTip(ev,labelTxt));
+        dot.addEventListener('mousemove', moveTip);
+        dot.addEventListener('mouseleave', ()=>label.style.display='none');
+        gC.appendChild(dot);
+      }
+    });
+  }
+
+  function drawCorridors(polylines){
+    gP.innerHTML='';
+    (polylines||[]).forEach(pl=>{
+      if(!pl||pl.length<2) return;
+      const p=document.createElementNS(NS,'path');
+      p.setAttribute('d', pathD(pl));
+      p.setAttribute('class','corr');
+      gP.appendChild(p);
+    });
+  }
+
+  function drawConnectorsViaRoute(units, exits, routeLine){
+  gN.innerHTML='';
+  const segments = buildCentroidToRouteLinks(units, exits, routeLine);
+  window.routeSegments = segments.slice();
+
+  // draw the connector lines
+  segments.forEach(seg=>{
+    const ln=document.createElementNS(NS,'line');
+    ln.setAttribute('x1',seg.from[0]); ln.setAttribute('y1',seg.from[1]);
+    ln.setAttribute('x2',seg.to[0]);   ln.setAttribute('y2',seg.to[1]);
+    ln.setAttribute('class','connector');
+    ln.dataset.source = seg.source;
+    gN.appendChild(ln);
+  });
+
+  // add hit dots only for segments whose target lies on/at the route
+  // IMPORTANT: the same set controls export parity below
+  const showDotFor = new Set(['route','snapC','snapE']);
+  segments.forEach(seg=>{
+    if(!showDotFor.has(seg.source)) return;
+    const dot=document.createElementNS(NS,'circle');
+    dot.setAttribute('cx', seg.to[0]);
+    dot.setAttribute('cy', seg.to[1]);
+    dot.setAttribute('r', 10);
+    dot.setAttribute('class','connector');
+    dot.setAttribute('fill', '#26c148');
+    dot.setAttribute('stroke', '#fff');
+    dot.setAttribute('stroke-width', '3');
+    dot.setAttribute('opacity', '0.95');
+    dot.style.pointerEvents = 'auto';
+    dot.dataset.source = seg.source;
+    const tip = `Hit (${seg.source}): (${seg.to[0].toFixed(2)}, ${seg.to[1].toFixed(2)})
+${seg.block??''} ${seg.unit??''}
+${seg.label||''}`;
+    dot.addEventListener('mouseenter', ev=>showTip(ev, tip));
+    dot.addEventListener('mousemove', moveTip);
+    dot.addEventListener('mouseleave', ()=>label.style.display='none');
+    gN.appendChild(dot);
+  });
+
+  // PARITY: export exactly what we draw as hit dots
+  window.routeHits = segments
+    .filter(s => showDotFor.has(s.source))
+    .map(s => ({
+      block: s.block,
+      unit:  s.unit,
+      text:  s.label || "",
+      x:     +s.hit[0].toFixed(2),
+      y:     +s.hit[1].toFixed(2)
+    }));
+
+  try { console.table(window.routeHits); } catch(e){}
+  return segments.length;
+}
+
+  function drawRoute(line){
+    gR.innerHTML='';
+    if(!Array.isArray(line)||line.length<2) return 0;
+    const p=document.createElementNS(NS,'path');
+    p.setAttribute('d', pathD(line));
+    p.setAttribute('class','route');
+    gR.appendChild(p);
+    return line.length;
+  }
+
+  // === Route updater (debounced): route path turant draw ho, connectors thoda delay se ===
+  function updateRouteNow(newLine){
+    const safe = Array.isArray(newLine) ? newLine : [];
+    // sync global
+    window.routeLine = safe;
+    // draw route and rebuild connectors/hits
+    drawRoute(safe);
+    drawConnectorsViaRoute(window.unitsData || [], window.exitsData || [], safe);
+    // refresh UI
+    renderStats();
+    applyToggles();
+  }
+
+  let _routeDebounceTimer = null;
+  const ROUTE_REBUILD_DEBOUNCE = 80; // mouse-draw ke waqt connectors ko thoda delay se rebuild karo
+  function updateRoute(newLine){
+    const safe = Array.isArray(newLine) ? newLine : [];
+    // route path ko immediately redraw karo for smoothness
+    drawRoute(safe);
+    window.routeLine = safe;
+    // connectors/hits ko debounce karke recompute karo
+    if (_routeDebounceTimer) clearTimeout(_routeDebounceTimer);
+    _routeDebounceTimer = setTimeout(()=>{
+      updateRouteNow(safe);
+    }, ROUTE_REBUILD_DEBOUNCE);
+  }
+
+  // Programmatic and event-based hook
+  document.addEventListener('route-updated', (ev)=> {
+    updateRoute(ev.detail?.line || []);
+  });
+
+  // toggles
+  let sCent=false, sConn=false, sCorr=false, sRoute=false;
+  function applyToggles(){
+    [...gC.children].forEach(n=>n.classList.toggle('show',sCent));
+    [...gN.children].forEach(n=>n.classList.toggle('show',sConn));
+    [...gP.children].forEach(n=>n.classList.toggle('show',sCorr));
+    [...gR.children].forEach(n=>n.style.display = sRoute?'inline':'none');
+    bCent.classList.toggle('active',sCent);
+    bConn.classList.toggle('active',sConn);
+    bCorr.classList.toggle('active',sCorr);
+    bRoute.classList.toggle('active',sRoute);
+    bCent.textContent = sCent?'Hide Centroids':'Show Centroids';
+    bConn.textContent = sConn?'Hide Connectors':'Show Connectors';
+    bCorr.textContent = sCorr?'Hide Corridors (magenta)':'Show Corridors (magenta)';
+    bRoute.textContent = sRoute?'Hide Single Route (safe)':'Show Single Route (safe)';
+  }
+  bCent.addEventListener('click', ()=>{ sCent=!sCent; applyToggles(); });
+  bConn.addEventListener('click', ()=>{ sConn=!sConn; applyToggles(); });
+  bCorr.addEventListener('click', ()=>{ sCorr=!sCorr; applyToggles(); });
+  bRoute.addEventListener('click', ()=>{ sRoute=!sRoute; applyToggles(); });
+
+  async function refreshAll(){
+    const [units, exits, polyl, routeOpt] = await Promise.all([
+      loadJSON(PATHS.units),
+      loadJSON(PATHS.exits),
+      loadJSON(PATHS.polyl),
+      loadJSON(PATHS.route).catch(()=>null)
+    ]);
+    window.unitsData = units||[];
+    window.exitsData = exits||[];
+    window.polylData = polyl||{};
+    window.routeLine = routeOpt?.line || [];
+
+    drawUnits(window.unitsData);
+    drawCorridors(window.polylData.polylines||[]);
+    // initial load par immediate rebuild (debounce nahi)
+    updateRouteNow(window.routeLine);
+
+    renderStats();
+    applyToggles();
+  }
+
+  // optimistic delete (hide connectors/route till rebuild)
+  function optimisticRemove(pairs){
+    const key = (b,u)=>`${String(b).trim()}|${String(u).trim()}`;
+    const rm = new Set((pairs||[]).map(x=>key(x.block,x.unit)));
+    if (Array.isArray(window.unitsData)){
+      window.unitsData = window.unitsData.filter(u=>!rm.has(key(u.block,u.unit)));
+    }
+    drawUnits(window.unitsData||[]);
+    gN.innerHTML=''; gR.innerHTML='';
+    window.routeSegments=[]; window.routeHits=[];
+    renderStats();
+    (pairs||[]).forEach(({block,unit})=>{
+      document.querySelectorAll('#gUnits polygon.unit').forEach(poly=>{
+        if (poly.dataset.block===String(block) && poly.dataset.unit===String(unit)){
+          poly.classList.remove('selected'); poly.style.opacity='0.25'; poly.style.pointerEvents='none';
+        }
+      });
+    });
+    applyToggles();
+  }
+
+  window.viewer = Object.assign(window.viewer || {}, {
+    refreshAll,
+    optimisticRemove,
+    setRoute: updateRoute,
+    setRouteNow: updateRouteNow
+  });
+
+  (async function(){
+    await new Promise(res=>{ if(bg.complete&&bg.naturalWidth) return res(); bg.onload=res; });
+    const W=bg.naturalWidth||8940, H=bg.naturalHeight||6204;
+    CANVAS_W=W; CANVAS_H=H;
+    box.style.width=W+'px'; box.style.height=H+'px';
+    svg.setAttribute('width',W); svg.setAttribute('height',H);
+    fitToViewport();
+
+    await refreshAll();
+    sCent=sConn=sCorr=sRoute=false;
+    applyToggles();
+  })().catch(err=>{ alert('Load error: '+err.message); console.error(err); });
+})();
+</script>
+
+<!-- ===== Backend actions: delete / undo / rebuild ===== -->
+<script>
+(function(){
+  const API_BASE = (location.origin.startsWith('http') ? location.origin : 'http://localhost:5055');
+
+  const inBlock = document.getElementById('inBlock');
+  const inUnit  = document.getElementById('inUnit');
+  const inText  = document.getElementById('inText');
+
+  const btnQueue = document.getElementById('btnQueue');
+  const btnQueueText = document.getElementById('btnQueueText');
+  const btnDoDelete = document.getElementById('btnDoDelete');
+  const btnUndo = document.getElementById('btnUndo');
+  const btnRefresh = document.getElementById('btnRefresh');
+  const btnDownloadHits = document.getElementById('btnDownloadHits');
+  const delList = document.getElementById('delList');
+  const apiStatus = document.getElementById('apiStatus');
+
+  if (btnDownloadHits) {
+    btnDownloadHits.addEventListener('click', () => {
+      if (Array.isArray(window.routeHits) && window.routeHits.length) {
+        window.downloadRouteHits();
+      } else { alert('Koi intersections JSON ready nahi hai.'); }
+    });
+  }
+
+  const toDelete = []; // {block, unit, label?}
+  let lastVersion = null;
+  let lastDeletedBatch = []; // full unit objects for undo
+
+  function setStatus(text, color){
+    apiStatus.textContent = text;
+    if (color) apiStatus.style.color = color;
+  }
+  function setUndoEnabled(on){
+    btnUndo.disabled = !on;
+    btnUndo.title = on ? 'Restore last deleted batch' : 'Nothing to undo';
+  }
+
+  async function apiFetch(path, opts={}, timeout=15000){
+    const ctrl = new AbortController();
+    const t = setTimeout(()=>ctrl.abort(new Error('timeout')), timeout);
+    try{
+      const r = await fetch(API_BASE + path, { mode:'cors', cache:'no-store', signal: ctrl.signal, ...opts });
+      return r;
+    } finally { clearTimeout(t); }
+  }
+  async function safeJson(res){
+    const txt = await res.text().catch(()=> ''); if(!txt) return {};
+    try{ return JSON.parse(txt);}catch{ return { raw: txt }; }
+  }
+
+  function key(u){ return `${(u.block||'').trim()}|${(u.unit||'').trim()}`; }
+  function setPolygonSelected(block, unit, on){
+    document.querySelectorAll('#gUnits polygon.unit').forEach(poly=>{
+      if (poly.dataset.block===String(block) && poly.dataset.unit===String(unit)){
+        poly.classList.toggle('selected', !!on);
+      }
+    });
+  }
+
+  function dedupePush(items){
+    const seen = new Set(toDelete.map(key));
+    let added = 0;
+    for(const it of items){
+      const k = key(it); if(!k.includes('|')) continue;
+      if(!seen.has(k)){
+        toDelete.push(it); seen.add(k); added++;
+        setPolygonSelected(it.block, it.unit, true);
+      }
+    }
+    renderList();
+    return added;
+  }
+  function removeFromQueue(block, unit){
+    const idx = toDelete.findIndex(it=>String(it.block)===String(block) && String(it.unit)===String(unit));
+    if(idx !== -1){
+      toDelete.splice(idx,1);
+      setPolygonSelected(block, unit, false);
+      renderList();
+    }
+  }
+  function renderList(){
+    delList.innerHTML = '';
+    toDelete.forEach((it, idx)=>{
+      const li = document.createElement('li');
+      const label = it.label ? ` — ${it.label}` : '';
+      li.textContent = `${it.block} / ${it.unit}${label}`;
+      const x = document.createElement('button');
+      x.className = 'pillX'; x.textContent = '×'; x.title = 'remove from queue';
+      x.onclick = ()=>{
+        const {block, unit} = toDelete[idx];
+        toDelete.splice(idx,1);
+        setPolygonSelected(block, unit, false);
+        renderList();
+      };
+      li.appendChild(x);
+      delList.appendChild(li);
+    });
+    btnDoDelete.disabled = toDelete.length === 0;
+  }
+
+  document.addEventListener('unit-click', (ev)=>{
+    const { block, unit, label, selected } = ev.detail || {};
+    if(!block || !unit) return;
+    if(selected){ dedupePush([{block, unit, label}]); } else { removeFromQueue(block, unit); }
+  });
+
+  btnQueue.addEventListener('click', ()=>{
+    const b = (inBlock.value||'').trim();
+    const u = (inUnit.value||'').trim();
+    if(!b || !u){ alert('Block and Unit required'); return; }
+    dedupePush([{block:b, unit:u}]);
+    inUnit.value='';
+  });
+
+  async function findByText(q){
+    const url = 'points_with_centroid.json?v=' + Date.now();
+    const r = await fetch(url, {cache:'no-store'});
+    if(!r.ok) throw new Error('units load failed: '+r.status);
+    const units = await r.json();
+    const norm = s => (s == null ? '' : s.toString().trim().replace(/\s+/g,' ').toLowerCase());
+    const keytxt = norm(q);
+    const hits = [];
+    for(const u of units){
+      const t = (u.best_text ?? u.text ?? u.name ?? '');
+      if (norm(t) === keytxt){
+        hits.push({block: String(u.block||''), unit: String(u.unit||''), label: t});
+      }
+    }
+    return hits;
+  }
+
+  btnQueueText.addEventListener('click', async ()=>{
+    const q = (inText.value||'').trim();
+    if(!q){ alert('Enter exact text to search'); return; }
+    btnQueueText.disabled = true;
+    try{
+      const hits = await findByText(q);
+      if(!hits.length){ alert('No units matched "'+q+'".'); return; }
+      const added = dedupePush(hits);
+      setStatus(`Queued ${added} by text`, '#7b3fe4');
+    }catch(err){ alert('Text search failed: '+err.message); }
+    finally{ btnQueueText.disabled = false; }
+  });
+
+  async function pingVersion(){
+    try{
+      const r = await apiFetch('/version', { });
+      if(!r.ok) throw new Error(await r.text());
+      const js = await r.json();
+      lastVersion = js.projectVersion ?? null;
+      setStatus(`API: ok (v${js.projectVersion ?? '?'})`, '#0a7');
+    }catch(e){
+      setStatus('API: offline', '#c21d3a');
+    }
+  }
+  pingVersion();
+
+  async function waitForRebuildAndRefresh(timeout=180000){
+    const start = Date.now();
+    while (Date.now() - start < timeout){
+      try{
+        const rs = await apiFetch('/rebuild/status', {}, 8000);
+        if (rs.ok){
+          const js = await rs.json();
+          if (js.lastError){ setStatus('Rebuild failed — check server logs', '#c21d3a'); console.error('Rebuild error:', js.lastError); return; }
+          if ((js.lastLog || '').includes('Rebuild done')){
+            setStatus('Rebuild done ✓ Updating view…', '#0a7');
+            await window.viewer.refreshAll();
+            setStatus('Up to date ✓', '#0a7');
+            return;
+          }
+        }
+      }catch(e){}
+      await new Promise(r=>setTimeout(r, 2000));
+    }
+    setStatus('Rebuild taking longer than expected…', '#f29e02');
+  }
+
+  if (btnRefresh) {
+    btnRefresh.addEventListener('click', async ()=>{
+      setStatus('Rebuild requested…', '#555');
+      btnRefresh.disabled = true;
+      try{
+        const r = await apiFetch('/rebuild', { method:'POST', headers:{'Accept':'application/json'} }, 15000);
+        if(!r.ok){
+          const t = await r.text().catch(()=> '');
+          throw new Error(`HTTP ${r.status} ${r.statusText} — ${t}`);
+        }
+        await waitForRebuildAndRefresh();
+      }catch(err){
+        alert('Rebuild request failed: '+(err?.message || err));
+        setStatus('API: error', '#c21d3a');
+      }finally{ btnRefresh.disabled = false; }
+    });
+  }
+
+  // UNDO uses /units/restore with lastDeletedBatch (full unit objects)
+  setUndoEnabled(false);
+  if (btnUndo) {
+    btnUndo.addEventListener('click', async ()=>{
+      if (!Array.isArray(lastDeletedBatch) || lastDeletedBatch.length===0){
+        setStatus('Nothing to undo', '#666'); return;
+      }
+      btnUndo.disabled = true;
+      setStatus('Undo pending…', '#555');
+      try{
+        const r = await apiFetch('/units/restore', {
+          method:'POST',
+          headers:{'Content-Type':'application/json','Accept':'application/json'},
+          body: JSON.stringify({ items: lastDeletedBatch })
+        }, 15000);
+        if(!r.ok){
+          const t = await r.text().catch(()=> '');
+          throw new Error(`HTTP ${r.status} ${r.statusText} — ${t}`);
+        }
+        const js = await safeJson(r);
+        const added = js.added || 0;
+        if (added>0){
+          setStatus('Restored ✓ (Not rebuilt yet)', '#07a357');
+          await window.viewer.refreshAll();
+          lastDeletedBatch = [];
+          setUndoEnabled(false);
+        }else{
+          setStatus('Nothing restored', '#666');
+        }
+      }catch(err){
+        alert('Undo failed: '+(err?.message || err));
+        setStatus('Undo error', '#c21d3a');
+        setUndoEnabled(true);
+      }
+    });
+  }
+
+  // DELETE: no auto-rebuild; store snapshot for undo
+  btnDoDelete.addEventListener('click', async ()=>{
+    if(!toDelete.length) return;
+    btnDoDelete.disabled = true;
+    setStatus('Deleting…', '#555');
+
+    // snapshot BEFORE deletion for undo
+    const snapMap = new Map();
+    const k = (b,u)=>`${String(b).trim()}|${String(u).trim()}`;
+    if (Array.isArray(window.unitsData)){
+      for (const u of window.unitsData){
+        snapMap.set(k(u.block,u.unit), u);
+      }
+    }
+    // build lastDeleted batch from queue
+    lastDeletedBatch = toDelete
+      .map(({block,unit})=> snapMap.get(k(block,unit)))
+      .filter(Boolean);
+
+    const body = { items: toDelete.map(({block,unit})=>({block,unit})), rebuild: false };
+
+    try{
+      let r = await apiFetch('/units', {
+        method:'DELETE',
+        headers:{'Content-Type':'application/json','Accept':'application/json'},
+        body: JSON.stringify(body)
+      }, 15000);
+      if (r.status === 405 || r.status === 400 || r.status === 415) {
+        r = await apiFetch('/units/delete', {
+          method:'POST',
+          headers:{'Content-Type':'application/json','Accept':'application/json'},
+          body: JSON.stringify(body)
+        }, 15000);
+      }
+      if(!r.ok){
+        const t = await r.text().catch(()=> '');
+        throw new Error(`HTTP ${r.status} ${r.statusText} — ${t}`);
+      }
+      const js = await safeJson(r);
+      const removed = (js && js.removed && (js.removed.units ?? js.removed)) || toDelete.length;
+
+      // optimistic UI
+      window.viewer.optimisticRemove(toDelete.slice());
+      setStatus(`Deleted ${removed} item(s). (Not rebuilt yet)`, '#0a7');
+
+      // clear queue
+      toDelete.length = 0; renderList && renderList();
+
+      // enable undo if we captured something
+      setUndoEnabled(lastDeletedBatch.length>0);
+
+    }catch(err){
+      const hint =
+        (location.protocol==='https:' && API_BASE.startsWith('http://')) ? '\nHint: HTTPS page → HTTP API (mixed content blocked).' :
+        (location.protocol==='file:') ? '\nHint: file:// origin — CORS me ACAO:* chahiye, ya page ko http:// se chalao.' : '';
+      alert('Delete failed/pending: ' + (err?.message || err) + hint);
+      setStatus('API: error', '#c21d3a');
+      setUndoEnabled(false);
+    }finally{
+      btnDoDelete.disabled = false;
+    }
+  });
+
+  window.getDeleteQueue = () => toDelete.slice();
+})();
+</script>
+
+<!-- ===== Project JSON exporter ===== -->
+<script>
+(function(){
+  function ts(){ const d=new Date(), z=n=>String(n).padStart(2,'0'); return `${d.getFullYear()}${z(d.getMonth()+1)}${z(d.getDate())}_${z(d.getHours())}${z(d.getMinutes())}${z(d.getSeconds())}`; }
+  function downloadJSON(data, name){
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; a.click();
+    URL.revokeObjectURL(a.href);
+  }
+  function buildProjectJSON(){
+    const units = Array.isArray(window.unitsData)? window.unitsData : [];
+    const exits = Array.isArray(window.exitsData)? window.exitsData : [];
+    const polyl = (window.polylData && Array.isArray(window.polylData.polylines)) ? window.polylData.polylines : [];
+    const route = Array.isArray(window.routeLine)? window.routeLine : [];
+    const connectors = Array.isArray(window.routeSegments)? window.routeSegments : [];
+    const hits = Array.isArray(window.routeHits)? window.routeHits : [];
+    const queue = typeof window.getDeleteQueue === 'function' ? window.getDeleteQueue() : [];
+    const selected = [...document.querySelectorAll('#gUnits polygon.unit.selected')].map(p=>({ block:p.dataset.block, unit:p.dataset.unit, label:p.dataset.label || '' }));
+
+    const unitsClean = units.map(u=>({ block:u.block ?? '', unit:u.unit ?? '', text:(u.best_text ?? u.text ?? u.name ?? '') || '', centroid:Array.isArray(u.centroid) ? u.centroid : null, polygon_points:Array.isArray(u.polygon_points) ? u.polygon_points : [] }));
+    const connectorsClean = connectors.map(s=>({ block:s.block ?? '', unit:s.unit ?? '', text:s.label || '', from:s.from, to:s.to, source:s.source, hit:s.hit || null }));
+
+    const counts = {
+      units: units.length,
+      centroids: units.filter(u=>Array.isArray(u.centroid)&&u.centroid.length===2).length,
+      connectors: connectors.length,
+      corridorPolylines: polyl.length,
+      routePts: route.length,
+      hits: hits.length
+    };
+
+    return {
+      meta: { exportedAt: new Date().toISOString(), image: window.bgInfo || null, counts },
+      selections: { queuedForDelete: queue, selectedPolygons: selected },
+      data: { units: unitsClean, exits, corridors: polyl, route, connectors: connectorsClean, hits }
+    };
+  }
+  const btn=document.getElementById('btnDownloadAll');
+  if(btn){
+    btn.addEventListener('click', ()=>{
+      const pack=buildProjectJSON();
+      downloadJSON(pack, `project_export_${ts()}.json`);
+    });
+  }
+  window.downloadProjectJSON = function(){
+    const pack=buildProjectJSON();
+    downloadJSON(pack, `project_export_${ts()}.json`);
+  };
+})();
+</script>
+
+</body>
+</html>

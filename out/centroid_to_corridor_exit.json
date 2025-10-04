@@ -1,0 +1,7778 @@
+[
+  {
+    "block": "Block_1",
+    "unit": "Unit_490",
+    "centroid": [
+      2994.48,
+      3049.25
+    ],
+    "exit_point": [
+      2954.483651800802,
+      3048.709508808119
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_1",
+    "unit": "Unit_58",
+    "centroid": [
+      3261.56,
+      3128.65
+    ],
+    "exit_point": [
+      3244.479771730713,
+      3327.91932980835
+    ],
+    "is_corridor": true,
+    "best_text": "- 062 SHOP"
+  },
+  {
+    "block": "Block_1",
+    "unit": "Unit_59",
+    "centroid": [
+      3086.12,
+      3089.86
+    ],
+    "exit_point": [
+      2967.405156371062,
+      3107.3753047977125
+    ],
+    "is_corridor": true,
+    "best_text": "- 043 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_1",
+    "centroid": [
+      2479.38,
+      4890.45
+    ],
+    "exit_point": [
+      2598.868880886714,
+      4879.386214732712
+    ],
+    "is_corridor": true,
+    "best_text": "-001 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_10",
+    "centroid": [
+      3708.96,
+      4466.21
+    ],
+    "exit_point": [
+      3928.950302389134,
+      4464.144363357848
+    ],
+    "is_corridor": true,
+    "best_text": "- 054 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_100",
+    "centroid": [
+      4038.91,
+      2144.41
+    ],
+    "exit_point": [
+      3938.91,
+      2144.41
+    ],
+    "is_corridor": true,
+    "best_text": "- 084 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_101",
+    "centroid": [
+      2620.31,
+      2105.21
+    ],
+    "exit_point": [
+      2500.316121355884,
+      2106.422059380244
+    ],
+    "is_corridor": true,
+    "best_text": "- 020 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_102",
+    "centroid": [
+      3599.23,
+      2064.29
+    ],
+    "exit_point": [
+      3799.23,
+      2064.29
+    ],
+    "is_corridor": true,
+    "best_text": "- 040 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_103",
+    "centroid": [
+      2994.23,
+      2056.79
+    ],
+    "exit_point": [
+      2855.7789105984384,
+      2077.557663410234
+    ],
+    "is_corridor": true,
+    "best_text": "- 030 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_104",
+    "centroid": [
+      4016.24,
+      2018.03
+    ],
+    "exit_point": [
+      4076.2358481818446,
+      2017.3241664919783
+    ],
+    "is_corridor": true,
+    "best_text": "- 079 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_105",
+    "centroid": [
+      2620.41,
+      1986.57
+    ],
+    "exit_point": [
+      2740.202924780999,
+      1993.6166426341763
+    ],
+    "is_corridor": true,
+    "best_text": "- 021 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_106",
+    "centroid": [
+      2996.31,
+      1937.65
+    ],
+    "exit_point": [
+      2996.31,
+      1877.65
+    ],
+    "is_corridor": true,
+    "best_text": "- 029a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_107",
+    "centroid": [
+      3599.62,
+      1928.82
+    ],
+    "exit_point": [
+      3799.62,
+      1928.82
+    ],
+    "is_corridor": true,
+    "best_text": "- 041 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_108",
+    "centroid": [
+      2621.88,
+      1873.85
+    ],
+    "exit_point": [
+      2741.88,
+      1873.85
+    ],
+    "is_corridor": true,
+    "best_text": "- 022 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_109",
+    "centroid": [
+      2996.05,
+      1833.42
+    ],
+    "exit_point": [
+      2996.7021353901155,
+      1893.416455890602
+    ],
+    "is_corridor": true,
+    "best_text": "- 029 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_11",
+    "centroid": [
+      3447.5,
+      4525.14
+    ],
+    "exit_point": [
+      3545.7304981623874,
+      4651.436354780212
+    ],
+    "is_corridor": true,
+    "best_text": "- 053 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_110",
+    "centroid": [
+      4181.01,
+      1774.88
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_111",
+    "centroid": [
+      4038.88,
+      1774.62
+    ],
+    "exit_point": [
+      3938.970415931688,
+      1770.3685283375185
+    ],
+    "is_corridor": true,
+    "best_text": "- 082 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_112",
+    "centroid": [
+      3598.92,
+      1777.06
+    ],
+    "exit_point": [
+      3401.6412152335715,
+      1809.9397974610715
+    ],
+    "is_corridor": true,
+    "best_text": "- 042 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_113",
+    "centroid": [
+      2621.32,
+      1759.11
+    ],
+    "exit_point": [
+      2501.326246909086,
+      1760.334426051948
+    ],
+    "is_corridor": true,
+    "best_text": "- 023 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_114",
+    "centroid": [
+      2932.17,
+      1687.64
+    ],
+    "exit_point": [
+      2931.3006401836315,
+      1647.6494484470434
+    ],
+    "is_corridor": true,
+    "best_text": "- 027a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_115",
+    "centroid": [
+      4039.58,
+      1658.05
+    ],
+    "exit_point": [
+      3939.874551449842,
+      1650.3803501115262
+    ],
+    "is_corridor": true,
+    "best_text": "- 080 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_116",
+    "centroid": [
+      4180.83,
+      1657.84
+    ],
+    "exit_point": [
+      4280.793496987285,
+      1655.1382838652085
+    ],
+    "is_corridor": true,
+    "best_text": "- 081 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_117",
+    "centroid": [
+      2620.13,
+      1651.25
+    ],
+    "exit_point": [
+      2631.602650498349,
+      1710.1429392248574
+    ],
+    "is_corridor": true,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_119",
+    "centroid": [
+      3746.1,
+      1548.03
+    ],
+    "exit_point": [
+      3774.3842712474616,
+      1576.3142712474619
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_12",
+    "centroid": [
+      3155.15,
+      4262.93
+    ],
+    "exit_point": [
+      2895.1629990250813,
+      4265.529870009749
+    ],
+    "is_corridor": true,
+    "best_text": "- 048 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_120",
+    "centroid": [
+      4177.46,
+      1553.12
+    ],
+    "exit_point": [
+      4223.9590554975275,
+      1488.0213223034611
+    ],
+    "is_corridor": true,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_121",
+    "centroid": [
+      4038.1,
+      1552.9
+    ],
+    "exit_point": [
+      3938.9772099317365,
+      1566.116372009102
+    ],
+    "is_corridor": true,
+    "best_text": "- 077 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_122",
+    "centroid": [
+      2621.38,
+      1527.46
+    ],
+    "exit_point": [
+      2718.865850657187,
+      1549.742480150214
+    ],
+    "is_corridor": true,
+    "best_text": "- 023b SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_123",
+    "centroid": [
+      2932.46,
+      1496.6
+    ],
+    "exit_point": [
+      2852.46,
+      1496.6
+    ],
+    "is_corridor": true,
+    "best_text": "- 025a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_124",
+    "centroid": [
+      3738.25,
+      1457.1
+    ],
+    "exit_point": [
+      3778.2262399741435,
+      1455.7215089664087
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_125",
+    "centroid": [
+      4039.75,
+      1439.15
+    ],
+    "exit_point": [
+      3939.75,
+      1439.15
+    ],
+    "is_corridor": true,
+    "best_text": "- 075 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_126",
+    "centroid": [
+      4181.42,
+      1438.85
+    ],
+    "exit_point": [
+      4281.388764640812,
+      1436.3507808839795
+    ],
+    "is_corridor": true,
+    "best_text": "- 076 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_127",
+    "centroid": [
+      2624.46,
+      1386.17
+    ],
+    "exit_point": [
+      2653.0309973013273,
+      1311.4458532119133
+    ],
+    "is_corridor": true,
+    "best_text": "023c"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_128",
+    "centroid": [
+      4178.58,
+      1332.87
+    ],
+    "exit_point": [
+      4233.000538064905,
+      1307.603321612722
+    ],
+    "is_corridor": true,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_129",
+    "centroid": [
+      4038.63,
+      1333.42
+    ],
+    "exit_point": [
+      3939.5072099317367,
+      1346.636372009102
+    ],
+    "is_corridor": true,
+    "best_text": "- 073 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_13",
+    "centroid": [
+      2440.71,
+      4260.41
+    ],
+    "exit_point": [
+      2444.7050093555113,
+      4180.509812889773
+    ],
+    "is_corridor": true,
+    "best_text": "- 005A SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_130",
+    "centroid": [
+      3021.67,
+      1348.29
+    ],
+    "exit_point": [
+      3010.9368737080013,
+      1289.2578053940056
+    ],
+    "is_corridor": true,
+    "best_text": "- 025b SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_131",
+    "centroid": [
+      2952.95,
+      1267.3
+    ],
+    "exit_point": [
+      3032.9109660869663,
+      1264.8012198097822
+    ],
+    "is_corridor": true,
+    "best_text": "- 043a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_132",
+    "centroid": [
+      4039.32,
+      1219.2
+    ],
+    "exit_point": [
+      3939.3259068489965,
+      1220.2868923168587
+    ],
+    "is_corridor": true,
+    "best_text": "- 071 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_133",
+    "centroid": [
+      4181.14,
+      1219.29
+    ],
+    "exit_point": [
+      4281.103496987285,
+      1216.5882838652085
+    ],
+    "is_corridor": true,
+    "best_text": "- 072 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_134",
+    "centroid": [
+      2628.76,
+      1242.08
+    ],
+    "exit_point": [
+      2728.76,
+      1242.08
+    ],
+    "is_corridor": true,
+    "best_text": "- 024 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_135",
+    "centroid": [
+      2947.08,
+      1190.01
+    ],
+    "exit_point": [
+      2847.08,
+      1190.01
+    ],
+    "is_corridor": true,
+    "best_text": "- 026 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_136",
+    "centroid": [
+      3633.55,
+      1192.71
+    ],
+    "exit_point": [
+      3792.495429739381,
+      1211.049857277621
+    ],
+    "is_corridor": true,
+    "best_text": "- 042b SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_137",
+    "centroid": [
+      4178.11,
+      1118.22
+    ],
+    "exit_point": [
+      4277.88851578566,
+      1111.5680989476227
+    ],
+    "is_corridor": true,
+    "best_text": "- 070 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_138",
+    "centroid": [
+      4041.66,
+      1117.76
+    ],
+    "exit_point": [
+      3941.66,
+      1117.76
+    ],
+    "is_corridor": true,
+    "best_text": "- / 069 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_139",
+    "centroid": [
+      2955.54,
+      1102.23
+    ],
+    "exit_point": [
+      2876.3440405071065,
+      1090.9162915010152
+    ],
+    "is_corridor": true,
+    "best_text": "- 025 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_14",
+    "centroid": [
+      3652.59,
+      4247.9
+    ],
+    "exit_point": [
+      3932.5292558838714,
+      4242.067932169086
+    ],
+    "is_corridor": true,
+    "best_text": "- 055 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_140",
+    "centroid": [
+      3073.52,
+      1142.81
+    ],
+    "exit_point": [
+      2993.5208264334747,
+      1143.1736326071205
+    ],
+    "is_corridor": true,
+    "best_text": "- 028a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_141",
+    "centroid": [
+      3631.91,
+      1049.63
+    ],
+    "exit_point": [
+      3628.4350220578954,
+      969.7055073315953
+    ],
+    "is_corridor": true,
+    "best_text": "- 042c SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_142",
+    "centroid": [
+      3341.17,
+      1091.21
+    ],
+    "exit_point": [
+      3301.1711653823186,
+      1091.5153346154023
+    ],
+    "is_corridor": true,
+    "best_text": "- 028a"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_143",
+    "centroid": [
+      4179.34,
+      994.92
+    ],
+    "exit_point": [
+      4279.2896475295365,
+      998.0930046834773
+    ],
+    "is_corridor": true,
+    "best_text": "- 068b"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_144",
+    "centroid": [
+      4038.78,
+      989.95
+    ],
+    "exit_point": [
+      3938.78,
+      989.95
+    ],
+    "is_corridor": true,
+    "best_text": "- 068a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_145",
+    "centroid": [
+      3443.19,
+      1077.93
+    ],
+    "exit_point": [
+      3523.19,
+      1077.93
+    ],
+    "is_corridor": true,
+    "best_text": "- 028 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_146",
+    "centroid": [
+      3564.5,
+      932.33
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "- 042d SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_147",
+    "centroid": [
+      3697.3,
+      915.23
+    ],
+    "exit_point": [
+      3797.1987013253242,
+      910.7300584988593
+    ],
+    "is_corridor": true,
+    "best_text": "BOX OFFICE"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_148",
+    "centroid": [
+      4043.48,
+      841.05
+    ],
+    "exit_point": [
+      3943.6525626825005,
+      846.922202195147
+    ],
+    "is_corridor": true,
+    "best_text": "- 067 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_149",
+    "centroid": [
+      4182.54,
+      832.83
+    ],
+    "exit_point": [
+      4187.868073634487,
+      712.948343224055
+    ],
+    "is_corridor": true,
+    "best_text": "- 068 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_15",
+    "centroid": [
+      3152.13,
+      4119.52
+    ],
+    "exit_point": [
+      2892.163812341648,
+      4115.326996973253
+    ],
+    "is_corridor": true,
+    "best_text": "- 047 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_150",
+    "centroid": [
+      2979.56,
+      6405.19
+    ],
+    "exit_point": [
+      2949.178395176929,
+      6331.183526713032
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_151",
+    "centroid": [
+      3453.19,
+      6212.94
+    ],
+    "exit_point": [
+      3379.2974162543633,
+      6243.597561341275
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_152",
+    "centroid": [
+      2323.01,
+      6150.13
+    ],
+    "exit_point": [
+      2285.9844135030066,
+      6165.266246052231
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_153",
+    "centroid": [
+      2846.31,
+      6076.56
+    ],
+    "exit_point": [
+      2790.512356789564,
+      6098.619533362265
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_154",
+    "centroid": [
+      2377.83,
+      6132.16
+    ],
+    "exit_point": [
+      2334.7525104829356,
+      6020.158527255633
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_155",
+    "centroid": [
+      2430.16,
+      6111.15
+    ],
+    "exit_point": [
+      2468.1073319220204,
+      6224.991995766061
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_156",
+    "centroid": [
+      2457.96,
+      6099.64
+    ],
+    "exit_point": [
+      2490.1725295315896,
+      6150.259689263927
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_157",
+    "centroid": [
+      2494.97,
+      6092.61
+    ],
+    "exit_point": [
+      2481.997027027027,
+      6054.772162162162
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_158",
+    "centroid": [
+      2841.81,
+      6031.65
+    ],
+    "exit_point": [
+      2936.6783298050514,
+      6000.027223398316
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_159",
+    "centroid": [
+      2562.25,
+      6056.31
+    ],
+    "exit_point": [
+      2517.5286404500043,
+      5966.867280900009
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_16",
+    "centroid": [
+      2296.51,
+      4112.52
+    ],
+    "exit_point": [
+      2616.51,
+      4112.52
+    ],
+    "is_corridor": true,
+    "best_text": "- 006 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_160",
+    "centroid": [
+      2637.6,
+      6032.1
+    ],
+    "exit_point": [
+      2615.0126433763203,
+      5999.087709550007
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_161",
+    "centroid": [
+      3927.25,
+      6020.63
+    ],
+    "exit_point": [
+      4001.5281352708207,
+      5990.918745891672
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_162",
+    "centroid": [
+      2669.14,
+      6017.66
+    ],
+    "exit_point": [
+      2708.187482407358,
+      6063.215396141918
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_163",
+    "centroid": [
+      2696.43,
+      6006.72
+    ],
+    "exit_point": [
+      2728.2299364001906,
+      6057.599898240305
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_164",
+    "centroid": [
+      2726.67,
+      5993.47
+    ],
+    "exit_point": [
+      2749.2573566236797,
+      6026.482290449993
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_165",
+    "centroid": [
+      3074.64,
+      5932.86
+    ],
+    "exit_point": [
+      3034.8846506130553,
+      5937.277261042994
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_166",
+    "centroid": [
+      2799.06,
+      5960.48
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_167",
+    "centroid": [
+      3106.98,
+      6040.34
+    ],
+    "exit_point": [
+      3152.008614143389,
+      6151.571398032776
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_168",
+    "centroid": [
+      1943.13,
+      5915.08
+    ],
+    "exit_point": [
+      1948.0913893835684,
+      5875.3888849314535
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_169",
+    "centroid": [
+      2877.04,
+      5936.79
+    ],
+    "exit_point": [
+      2843.1589650644805,
+      5887.27156432501
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_17",
+    "centroid": [
+      3652.35,
+      4107.8
+    ],
+    "exit_point": [
+      3932.3147332954077,
+      4112.243884655483
+    ],
+    "is_corridor": true,
+    "best_text": "- 056 SHOP ☐"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_170",
+    "centroid": [
+      2905.08,
+      5917.47
+    ],
+    "exit_point": [
+      2946.239660434202,
+      5986.0694340570035
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_171",
+    "centroid": [
+      3320.5,
+      5884.5
+    ],
+    "exit_point": [
+      3343.668285287568,
+      5939.846459298079
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_172",
+    "centroid": [
+      2931.44,
+      5906.29
+    ],
+    "exit_point": [
+      2935.42014876084,
+      5866.4885123916
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_173",
+    "centroid": [
+      2778.88,
+      5880.32
+    ],
+    "exit_point": [
+      2763.416993249865,
+      5843.429683896105
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_174",
+    "centroid": [
+      2960.14,
+      5897.79
+    ],
+    "exit_point": [
+      2957.286091035073,
+      5837.857911736533
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_175",
+    "centroid": [
+      2069.95,
+      5878.43
+    ],
+    "exit_point": [
+      2047.9585288970504,
+      5822.605496430975
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_176",
+    "centroid": [
+      3035.94,
+      5865.18
+    ],
+    "exit_point": [
+      3009.098497096817,
+      5789.817318771833
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_177",
+    "centroid": [
+      3114.34,
+      5832.81
+    ],
+    "exit_point": [
+      3152.334267415436,
+      5879.2474379522
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_178",
+    "centroid": [
+      3305.3,
+      5834.56
+    ],
+    "exit_point": [
+      3342.7970108803906,
+      5820.632538815856
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_179",
+    "centroid": [
+      4573.0,
+      5812.0
+    ],
+    "exit_point": [
+      4612.047482407358,
+      5803.322781687254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_18",
+    "centroid": [
+      3153.86,
+      3970.4
+    ],
+    "exit_point": [
+      2893.93027976882,
+      3976.444877214679
+    ],
+    "is_corridor": true,
+    "best_text": "- 046 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_180",
+    "centroid": [
+      3141.67,
+      5824.6
+    ],
+    "exit_point": [
+      3174.9520117735137,
+      5874.523017660271
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_181",
+    "centroid": [
+      4419.0,
+      5893.33
+    ],
+    "exit_point": [
+      4448.9890311228055,
+      5967.496421056401
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_182",
+    "centroid": [
+      3168.61,
+      5811.45
+    ],
+    "exit_point": [
+      3139.8916736552906,
+      5736.782351503755
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_183",
+    "centroid": [
+      3195.55,
+      5801.47
+    ],
+    "exit_point": [
+      3163.3374704684106,
+      5750.850310736074
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_184",
+    "centroid": [
+      3011.91,
+      5790.57
+    ],
+    "exit_point": [
+      3051.636024172915,
+      5785.896350097304
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_185",
+    "centroid": [
+      4335.67,
+      5845.33
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_186",
+    "centroid": [
+      3625.29,
+      6260.86
+    ],
+    "exit_point": [
+      3640.314808882081,
+      6297.93094708875
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_187",
+    "centroid": [
+      2389.75,
+      5832.63
+    ],
+    "exit_point": [
+      2435.025626477622,
+      5943.761083172346
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_188",
+    "centroid": [
+      3272.96,
+      5769.71
+    ],
+    "exit_point": [
+      3285.599240088534,
+      5848.705250553337
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_189",
+    "centroid": [
+      3531.16,
+      5721.56
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_19",
+    "centroid": [
+      2298.76,
+      3966.21
+    ],
+    "exit_point": [
+      2618.76,
+      3966.21
+    ],
+    "is_corridor": true,
+    "best_text": "- 007 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_190",
+    "centroid": [
+      3581.16,
+      5848.0
+    ],
+    "exit_point": [
+      3626.188614143389,
+      5959.231398032776
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_191",
+    "centroid": [
+      3539.71,
+      5736.31
+    ],
+    "exit_point": [
+      3501.169283614802,
+      5747.015754551444
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_192",
+    "centroid": [
+      3623.74,
+      6222.18
+    ],
+    "exit_point": [
+      3607.8333375030843,
+      6185.47879990778
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_193",
+    "centroid": [
+      2177.43,
+      5698.95
+    ],
+    "exit_point": [
+      2206.161127840834,
+      5646.276265625137
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_194",
+    "centroid": [
+      3794.44,
+      5692.31
+    ],
+    "exit_point": [
+      3817.608285287568,
+      5747.656459298079
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_195",
+    "centroid": [
+      3247.8,
+      5698.3
+    ],
+    "exit_point": [
+      3214.787709550007,
+      5720.88735662368
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_196",
+    "centroid": [
+      4384.27,
+      5674.89
+    ],
+    "exit_point": [
+      4347.071571193043,
+      5689.596355574844
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_197",
+    "centroid": [
+      2611.05,
+      5742.69
+    ],
+    "exit_point": [
+      2656.087090615666,
+      5853.917966217477
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_198",
+    "centroid": [
+      3508.29,
+      5672.76
+    ],
+    "exit_point": [
+      3415.348368673929,
+      5709.663294791234
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_199",
+    "centroid": [
+      3491.19,
+      5621.41
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_2",
+    "centroid": [
+      2280.52,
+      4887.0
+    ],
+    "exit_point": [
+      2242.982590580152,
+      5083.445775963869
+    ],
+    "is_corridor": true,
+    "best_text": "- 002 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_20",
+    "centroid": [
+      3646.51,
+      3954.2
+    ],
+    "exit_point": [
+      3925.3969681136186,
+      3929.258889030489
+    ],
+    "is_corridor": true,
+    "best_text": "- 057 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_200",
+    "centroid": [
+      1720.95,
+      5709.13
+    ],
+    "exit_point": [
+      1628.3178381948294,
+      5746.803367241338
+    ],
+    "is_corridor": true,
+    "best_text": "ப"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_201",
+    "centroid": [
+      3766.1,
+      5617.83
+    ],
+    "exit_point": [
+      3823.7914368584493,
+      5601.3467323261575
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_202",
+    "centroid": [
+      4505.81,
+      5625.91
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_203",
+    "centroid": [
+      3777.29,
+      5636.7
+    ],
+    "exit_point": [
+      3739.475080734949,
+      5649.739627332776
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_204",
+    "centroid": [
+      3485.76,
+      5603.86
+    ],
+    "exit_point": [
+      3470.942511214981,
+      5566.705699762937
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_205",
+    "centroid": [
+      4628.0,
+      5576.0
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_206",
+    "centroid": [
+      3744.38,
+      5576.42
+    ],
+    "exit_point": [
+      3670.211194743668,
+      5606.403134039794
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_207",
+    "centroid": [
+      3731.45,
+      5531.19
+    ],
+    "exit_point": [
+      3783.899436567292,
+      5502.051424129281
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_208",
+    "centroid": [
+      4055.14,
+      5655.67
+    ],
+    "exit_point": [
+      4100.305245634712,
+      5766.845989254677
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_209",
+    "centroid": [
+      2517.15,
+      5593.96
+    ],
+    "exit_point": [
+      2502.230882033805,
+      5556.84639172607
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_21",
+    "centroid": [
+      3152.33,
+      3812.96
+    ],
+    "exit_point": [
+      2892.3643642613183,
+      3808.732916492054
+    ],
+    "is_corridor": true,
+    "best_text": "- 045 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_210",
+    "centroid": [
+      3999.89,
+      5515.54
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_211",
+    "centroid": [
+      4335.53,
+      5553.71
+    ],
+    "exit_point": [
+      4298.664584994477,
+      5569.232280002326
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_212",
+    "centroid": [
+      3722.03,
+      5511.1
+    ],
+    "exit_point": [
+      3685.191309957258,
+      5526.685599633468
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_213",
+    "centroid": [
+      4012.65,
+      5538.56
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_214",
+    "centroid": [
+      3978.87,
+      5480.32
+    ],
+    "exit_point": [
+      3903.271114124779,
+      5506.488845110653
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_215",
+    "centroid": [
+      3970.12,
+      5440.85
+    ],
+    "exit_point": [
+      4022.569436567292,
+      5411.711424129282
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_216",
+    "centroid": [
+      2481.0,
+      5497.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_217",
+    "centroid": [
+      2308.33,
+      5491.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_218",
+    "centroid": [
+      4457.43,
+      5504.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_219",
+    "centroid": [
+      4234.22,
+      5413.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_22",
+    "centroid": [
+      2296.82,
+      3807.04
+    ],
+    "exit_point": [
+      2616.82,
+      3807.04
+    ],
+    "is_corridor": true,
+    "best_text": "- 008 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_220",
+    "centroid": [
+      3961.32,
+      5417.94
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_221",
+    "centroid": [
+      4579.04,
+      5454.71
+    ],
+    "exit_point": [
+      4616.044818488462,
+      5439.523051371787
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_222",
+    "centroid": [
+      4376.96,
+      5389.06
+    ],
+    "exit_point": [
+      4413.627838588337,
+      5373.076583179443
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_223",
+    "centroid": [
+      4247.24,
+      5438.95
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_224",
+    "centroid": [
+      3361.5,
+      5438.0
+    ],
+    "exit_point": [
+      3407.121473264764,
+      5548.989554360545
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_225",
+    "centroid": [
+      4208.88,
+      5350.13
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_226",
+    "centroid": [
+      2811.45,
+      5329.16
+    ],
+    "exit_point": [
+      2774.3109323645895,
+      5314.304372945836
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_227",
+    "centroid": [
+      4525.73,
+      5328.66
+    ],
+    "exit_point": [
+      4487.498839651122,
+      5340.4234339535005
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_228",
+    "centroid": [
+      2418.67,
+      5366.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_229",
+    "centroid": [
+      4197.84,
+      5325.29
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_23",
+    "centroid": [
+      3652.94,
+      3797.3
+    ],
+    "exit_point": [
+      3932.904733295408,
+      3801.743884655483
+    ],
+    "is_corridor": true,
+    "best_text": "- 058 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_230",
+    "centroid": [
+      2599.34,
+      5365.38
+    ],
+    "exit_point": [
+      2620.8150196877264,
+      5399.126459509284
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_231",
+    "centroid": [
+      2732.42,
+      5275.74
+    ],
+    "exit_point": [
+      2760.2518086330806,
+      5304.469608911567
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_232",
+    "centroid": [
+      2635.99,
+      5344.19
+    ],
+    "exit_point": [
+      2554.6166528793265,
+      5230.267314031057
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_233",
+    "centroid": [
+      3583.0,
+      5348.5
+    ],
+    "exit_point": [
+      3628.037090615666,
+      5459.727966217478
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_234",
+    "centroid": [
+      4329.5,
+      5269.34
+    ],
+    "exit_point": [
+      4367.2543342546405,
+      5256.125983010876
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_235",
+    "centroid": [
+      2918.97,
+      5342.52
+    ],
+    "exit_point": [
+      2933.9505194673607,
+      5379.608866745804
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_236",
+    "centroid": [
+      2671.5,
+      5322.5
+    ],
+    "exit_point": [
+      2703.5,
+      5346.5
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_237",
+    "centroid": [
+      2949.62,
+      5230.15
+    ],
+    "exit_point": [
+      2965.1788814816146,
+      5266.999982456455
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_238",
+    "centroid": [
+      2714.26,
+      5230.98
+    ],
+    "exit_point": [
+      2714.26,
+      5190.98
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_239",
+    "centroid": [
+      5899.43,
+      5271.89
+    ],
+    "exit_point": [
+      5855.200751587956,
+      5312.433477711041
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_24",
+    "centroid": [
+      4309.87,
+      3797.6
+    ],
+    "exit_point": [
+      4190.206082813385,
+      3806.574793788996
+    ],
+    "is_corridor": true,
+    "best_text": "- 098 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_240",
+    "centroid": [
+      2699.75,
+      5303.35
+    ],
+    "exit_point": [
+      2660.239723527889,
+      5258.195398317588
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_241",
+    "centroid": [
+      5113.81,
+      5238.13
+    ],
+    "exit_point": [
+      5098.888430111365,
+      5201.01737745647
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_242",
+    "centroid": [
+      4783.05,
+      5224.25
+    ],
+    "exit_point": [
+      4818.8270876399965,
+      5206.361456180001
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_243",
+    "centroid": [
+      4476.79,
+      5209.8
+    ],
+    "exit_point": [
+      4440.471624619982,
+      5226.56232709847
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_244",
+    "centroid": [
+      2946.78,
+      5190.49
+    ],
+    "exit_point": [
+      2887.7830797009324,
+      5201.415355610939
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_245",
+    "centroid": [
+      4454.67,
+      5286.83
+    ],
+    "exit_point": [
+      4518.67,
+      5334.83
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_246",
+    "centroid": [
+      4630.5,
+      5217.0
+    ],
+    "exit_point": [
+      4660.925202379903,
+      5290.988560332946
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_247",
+    "centroid": [
+      3804.45,
+      5258.31
+    ],
+    "exit_point": [
+      3849.83318612572,
+      5369.3972018599725
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_248",
+    "centroid": [
+      5157.71,
+      5361.61
+    ],
+    "exit_point": [
+      5135.312468948331,
+      5305.947170366666
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_249",
+    "centroid": [
+      3171.69,
+      5153.44
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_25",
+    "centroid": [
+      3152.18,
+      3664.32
+    ],
+    "exit_point": [
+      3152.18,
+      3564.32
+    ],
+    "is_corridor": true,
+    "best_text": "- 044 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_250",
+    "centroid": [
+      4931.43,
+      5164.37
+    ],
+    "exit_point": [
+      4893.976832897239,
+      5178.414937663536
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_251",
+    "centroid": [
+      5694.0,
+      5143.5
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_252",
+    "centroid": [
+      2928.71,
+      5145.22
+    ],
+    "exit_point": [
+      2878.4533641896833,
+      5177.996066832816
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_253",
+    "centroid": [
+      3229.5,
+      5132.5
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_255",
+    "centroid": [
+      2902.42,
+      5113.5
+    ],
+    "exit_point": [
+      2866.1726744001894,
+      5096.584581386755
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_256",
+    "centroid": [
+      5205.93,
+      5472.49
+    ],
+    "exit_point": [
+      5243.534406425842,
+      5565.15017816387
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_257",
+    "centroid": [
+      6076.57,
+      5185.94
+    ],
+    "exit_point": [
+      6114.604703481586,
+      5278.424384255223
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_258",
+    "centroid": [
+      4734.75,
+      5105.41
+    ],
+    "exit_point": [
+      4772.981160348878,
+      5093.646566046499
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_259",
+    "centroid": [
+      4026.19,
+      5168.43
+    ],
+    "exit_point": [
+      4071.227090615666,
+      5279.657966217478
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_26",
+    "centroid": [
+      3652.39,
+      3649.07
+    ],
+    "exit_point": [
+      3932.331709169765,
+      3643.3569038944947
+    ],
+    "is_corridor": true,
+    "best_text": "- 059 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_260",
+    "centroid": [
+      5815.81,
+      5094.41
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_261",
+    "centroid": [
+      5189.96,
+      5059.8
+    ],
+    "exit_point": [
+      5226.278375380018,
+      5043.037672901531
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_262",
+    "centroid": [
+      3419.5,
+      5055.5
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_263",
+    "centroid": [
+      5938.04,
+      5044.69
+    ],
+    "exit_point": [
+      5975.351925376224,
+      5030.274028831913
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_264",
+    "centroid": [
+      4883.27,
+      5044.87
+    ],
+    "exit_point": [
+      4846.951624619983,
+      5061.632327098469
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_265",
+    "centroid": [
+      3054.93,
+      5192.08
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_266",
+    "centroid": [
+      2801.84,
+      5088.07
+    ],
+    "exit_point": [
+      2838.9004263402867,
+      5073.019259171849
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_267",
+    "centroid": [
+      4830.38,
+      5134.04
+    ],
+    "exit_point": [
+      4801.6616736552905,
+      5059.372351503755
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_268",
+    "centroid": [
+      5036.44,
+      5052.31
+    ],
+    "exit_point": [
+      5066.623750985081,
+      5126.397388781565
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_269",
+    "centroid": [
+      2710.86,
+      5072.93
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_27",
+    "centroid": [
+      2298.41,
+      3659.46
+    ],
+    "exit_point": [
+      2618.41,
+      3659.46
+    ],
+    "is_corridor": true,
+    "best_text": "- 009 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_270",
+    "centroid": [
+      3207.2,
+      5056.35
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_271",
+    "centroid": [
+      2768.33,
+      4998.67
+    ],
+    "exit_point": [
+      2750.9773752490837,
+      4962.629933209636
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_272",
+    "centroid": [
+      5338.01,
+      4999.3
+    ],
+    "exit_point": [
+      5300.156005757281,
+      5012.22575413166
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_273",
+    "centroid": [
+      2782.2,
+      5014.39
+    ],
+    "exit_point": [
+      2841.59696961967,
+      5005.904718625762
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_274",
+    "centroid": [
+      3218.24,
+      5064.74
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_275",
+    "centroid": [
+      3029.22,
+      5083.93
+    ],
+    "exit_point": [
+      3104.7237874401553,
+      5177.1993844848985
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_276",
+    "centroid": [
+      3071.67,
+      5078.0
+    ],
+    "exit_point": [
+      3102.398851183895,
+      5103.607375986579
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_277",
+    "centroid": [
+      5645.27,
+      5023.84
+    ],
+    "exit_point": [
+      5608.251571097887,
+      5038.993742825427
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_278",
+    "centroid": [
+      6507.0,
+      4974.0
+    ],
+    "exit_point": [
+      6432.831194743668,
+      5003.983134039794
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_279",
+    "centroid": [
+      3391.93,
+      4987.85
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_28",
+    "centroid": [
+      4311.91,
+      3584.77
+    ],
+    "exit_point": [
+      4192.024500428614,
+      3579.529103843874
+    ],
+    "is_corridor": true,
+    "best_text": "- 097 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_280",
+    "centroid": [
+      5141.33,
+      4940.12
+    ],
+    "exit_point": [
+      5179.18399424272,
+      4927.19424586834
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_281",
+    "centroid": [
+      3408.96,
+      4992.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_283",
+    "centroid": [
+      3146.2,
+      4926.44
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_284",
+    "centroid": [
+      2000.78,
+      5190.26
+    ],
+    "exit_point": [
+      2059.556162038489,
+      5178.20335137672
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_285",
+    "centroid": [
+      5595.96,
+      4894.8
+    ],
+    "exit_point": [
+      5632.278375380018,
+      4878.037672901531
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_286",
+    "centroid": [
+      5767.31,
+      4973.05
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_287",
+    "centroid": [
+      3167.46,
+      4926.58
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_288",
+    "centroid": [
+      5289.27,
+      4879.87
+    ],
+    "exit_point": [
+      5252.951624619983,
+      4896.632327098469
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_289",
+    "centroid": [
+      3090.91,
+      4881.27
+    ],
+    "exit_point": [
+      3050.91,
+      4881.27
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_29",
+    "centroid": [
+      3676.8,
+      3503.31
+    ],
+    "exit_point": [
+      3416.8067281690337,
+      3505.1804551930286
+    ],
+    "is_corridor": true,
+    "best_text": "- 060 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_290",
+    "centroid": [
+      5889.22,
+      4924.92
+    ],
+    "exit_point": [
+      5926.117639532053,
+      4909.474476474955
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_291",
+    "centroid": [
+      4854.85,
+      4911.23
+    ],
+    "exit_point": [
+      4895.677065962037,
+      4955.197609497577
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_292",
+    "centroid": [
+      4105.01,
+      4872.32
+    ],
+    "exit_point": [
+      4127.215286060665,
+      4928.0597997033
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_293",
+    "centroid": [
+      4897.17,
+      4880.02
+    ],
+    "exit_point": [
+      4882.810836827645,
+      4842.686175751878
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_294",
+    "centroid": [
+      5242.97,
+      4969.76
+    ],
+    "exit_point": [
+      5272.259944709163,
+      5044.205276135791
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_295",
+    "centroid": [
+      5442.75,
+      4887.63
+    ],
+    "exit_point": [
+      5472.580825955201,
+      4961.860194818756
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_296",
+    "centroid": [
+      3336.18,
+      4849.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_297",
+    "centroid": [
+      5744.09,
+      4834.84
+    ],
+    "exit_point": [
+      5706.2360057572805,
+      4847.76575413166
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_298",
+    "centroid": [
+      3355.81,
+      4847.77
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_299",
+    "centroid": [
+      4086.53,
+      4812.8
+    ],
+    "exit_point": [
+      4049.9528535770023,
+      4828.989884482311
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_3",
+    "centroid": [
+      2091.37,
+      4886.21
+    ],
+    "exit_point": [
+      1971.499589670632,
+      4891.785367922296
+    ],
+    "is_corridor": true,
+    "best_text": "- 003 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_30",
+    "centroid": [
+      2296.82,
+      3500.04
+    ],
+    "exit_point": [
+      1979.2910794516265,
+      3460.348884931453
+    ],
+    "is_corridor": true,
+    "best_text": "- 010 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_300",
+    "centroid": [
+      5016.29,
+      4831.96
+    ],
+    "exit_point": [
+      4996.1351589790365,
+      4797.408843964063
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_301",
+    "centroid": [
+      5068.33,
+      4824.15
+    ],
+    "exit_point": [
+      5019.733991394336,
+      4760.601373361824
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_302",
+    "centroid": [
+      3509.18,
+      4779.66
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_303",
+    "centroid": [
+      5619.46,
+      4815.95
+    ],
+    "exit_point": [
+      5761.046915581117,
+      4741.43057074678
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_304",
+    "centroid": [
+      5547.55,
+      4775.33
+    ],
+    "exit_point": [
+      5585.40399424272,
+      4762.40424586834
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_305",
+    "centroid": [
+      3527.4,
+      4798.52
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_306",
+    "centroid": [
+      6980.94,
+      4781.81
+    ],
+    "exit_point": [
+      6906.661864729179,
+      4811.521254108328
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_307",
+    "centroid": [
+      5863.4,
+      4755.53
+    ],
+    "exit_point": [
+      5942.109592807992,
+      4741.219164944001
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_308",
+    "centroid": [
+      5871.43,
+      4781.4
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_309",
+    "centroid": [
+      3398.23,
+      4756.34
+    ],
+    "exit_point": [
+      3413.4405402610723,
+      4793.335127584133
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_31",
+    "centroid": [
+      6653.5,
+      3406.94
+    ],
+    "exit_point": [
+      6622.664432931225,
+      3333.121521259599
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_310",
+    "centroid": [
+      4836.98,
+      4732.34
+    ],
+    "exit_point": [
+      4853.742327098469,
+      4768.658375380018
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_311",
+    "centroid": [
+      3585.0,
+      5290.6
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_312",
+    "centroid": [
+      5694.81,
+      4714.87
+    ],
+    "exit_point": [
+      5659.591156003114,
+      4733.833992921401
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_313",
+    "centroid": [
+      4787.44,
+      4746.94
+    ],
+    "exit_point": [
+      4746.059705569881,
+      4655.903352253739
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_314",
+    "centroid": [
+      3678.84,
+      4710.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_315",
+    "centroid": [
+      4641.0,
+      4683.5
+    ],
+    "exit_point": [
+      4619.932593504696,
+      4627.3202493458575
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_316",
+    "centroid": [
+      4288.28,
+      4707.89
+    ],
+    "exit_point": [
+      4283.289737107585,
+      4628.04579372137
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_317",
+    "centroid": [
+      1802.72,
+      4678.97
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_318",
+    "centroid": [
+      5836.98,
+      4688.97
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_319",
+    "centroid": [
+      4956.41,
+      4683.78
+    ],
+    "exit_point": [
+      4969.33575413166,
+      4721.633994242719
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_32",
+    "centroid": [
+      5106.86,
+      3612.56
+    ],
+    "exit_point": [
+      5108.886980757907,
+      3312.5668478298094
+    ],
+    "is_corridor": true,
+    "best_text": "- 120 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_320",
+    "centroid": [
+      3694.25,
+      4716.79
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_321",
+    "centroid": [
+      6102.95,
+      4670.42
+    ],
+    "exit_point": [
+      6048.121307082784,
+      4694.7883079632065
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_322",
+    "centroid": [
+      6160.68,
+      4801.16
+    ],
+    "exit_point": [
+      6205.478036647493,
+      4912.484462327603
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_323",
+    "centroid": [
+      6111.13,
+      4690.59
+    ],
+    "exit_point": [
+      6147.410358709937,
+      4673.745547741815
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_324",
+    "centroid": [
+      6373.37,
+      4645.75
+    ],
+    "exit_point": [
+      6394.99395675213,
+      4701.717888064336
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_325",
+    "centroid": [
+      5824.64,
+      4664.03
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_326",
+    "centroid": [
+      1803.3,
+      4641.68
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_327",
+    "centroid": [
+      3845.51,
+      4643.17
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_328",
+    "centroid": [
+      4928.72,
+      4789.8
+    ],
+    "exit_point": [
+      5002.947841442278,
+      4759.963318635947
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_329",
+    "centroid": [
+      3971.4,
+      4679.34
+    ],
+    "exit_point": [
+      3993.588007849009,
+      4712.622011773514
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_33",
+    "centroid": [
+      5259.53,
+      3598.46
+    ],
+    "exit_point": [
+      5340.095101264942,
+      3657.699045047752
+    ],
+    "is_corridor": true,
+    "best_text": "- 121 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_330",
+    "centroid": [
+      3709.96,
+      4630.05
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_331",
+    "centroid": [
+      6093.64,
+      4624.67
+    ],
+    "exit_point": [
+      6168.307648496245,
+      4595.9516736552905
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_332",
+    "centroid": [
+      3861.83,
+      4651.47
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_333",
+    "centroid": [
+      5000.22,
+      4654.58
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_335",
+    "centroid": [
+      1803.46,
+      4597.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_336",
+    "centroid": [
+      6348.14,
+      4600.19
+    ],
+    "exit_point": [
+      6310.606275327316,
+      4614.018214353094
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_337",
+    "centroid": [
+      6069.17,
+      4583.37
+    ],
+    "exit_point": [
+      6012.24900211697,
+      4602.34366596101
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_338",
+    "centroid": [
+      4859.83,
+      4603.65
+    ],
+    "exit_point": [
+      4820.782517592642,
+      4612.327218312746
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_339",
+    "centroid": [
+      1803.26,
+      4554.02
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_34",
+    "centroid": [
+      4311.2,
+      3380.85
+    ],
+    "exit_point": [
+      4274.955373884505,
+      3474.0504671541294
+    ],
+    "is_corridor": true,
+    "best_text": "- 096 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_340",
+    "centroid": [
+      6057.7,
+      4564.02
+    ],
+    "exit_point": [
+      6020.5609323645895,
+      4578.875627054164
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_341",
+    "centroid": [
+      5063.0,
+      4512.0
+    ],
+    "exit_point": [
+      5007.291398546884,
+      4534.283440581246
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_342",
+    "centroid": [
+      4274.16,
+      4558.24
+    ],
+    "exit_point": [
+      4195.690591939626,
+      4542.665919010918
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_343",
+    "centroid": [
+      6572.13,
+      4516.89
+    ],
+    "exit_point": [
+      6606.429717028502,
+      4496.3101697829
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_344",
+    "centroid": [
+      1802.99,
+      4510.17
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_345",
+    "centroid": [
+      6328.37,
+      4530.88
+    ],
+    "exit_point": [
+      6373.544713247359,
+      4596.904580899986
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_346",
+    "centroid": [
+      4072.05,
+      4635.23
+    ],
+    "exit_point": [
+      4188.575086828149,
+      4663.89887056883
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_347",
+    "centroid": [
+      6404.91,
+      4500.57
+    ],
+    "exit_point": [
+      6369.619698139497,
+      4452.045834941809
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_349",
+    "centroid": [
+      1658.57,
+      4556.54
+    ],
+    "exit_point": [
+      1659.2971525467005,
+      4516.546609931467
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_35",
+    "centroid": [
+      3672.77,
+      3346.56
+    ],
+    "exit_point": [
+      3412.776826028172,
+      3348.4440085070423
+    ],
+    "is_corridor": true,
+    "best_text": "- 061 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_350",
+    "centroid": [
+      6634.16,
+      4609.0
+    ],
+    "exit_point": [
+      6679.188614143389,
+      4720.231398032776
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_351",
+    "centroid": [
+      4178.59,
+      4550.82
+    ],
+    "exit_point": [
+      4188.291425001454,
+      4589.625700005813
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_352",
+    "centroid": [
+      4475.7,
+      4576.64
+    ],
+    "exit_point": [
+      4514.841991399469,
+      4568.399580758007
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_353",
+    "centroid": [
+      6431.83,
+      4486.97
+    ],
+    "exit_point": [
+      6398.547988226486,
+      4437.04698233973
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_354",
+    "centroid": [
+      1802.98,
+      4466.6
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_355",
+    "centroid": [
+      6847.31,
+      4453.56
+    ],
+    "exit_point": [
+      6902.656459298079,
+      4430.391714712433
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_356",
+    "centroid": [
+      6458.3,
+      4477.27
+    ],
+    "exit_point": [
+      6431.393088240147,
+      4447.672397064162
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_357",
+    "centroid": [
+      6846.19,
+      4949.24
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_358",
+    "centroid": [
+      6292.97,
+      4462.84
+    ],
+    "exit_point": [
+      6330.784919265051,
+      4449.800372667224
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_359",
+    "centroid": [
+      6487.84,
+      4467.63
+    ],
+    "exit_point": [
+      6486.102511028947,
+      4427.667753665798
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_36",
+    "centroid": [
+      2298.54,
+      3352.09
+    ],
+    "exit_point": [
+      2618.54,
+      3352.09
+    ],
+    "is_corridor": true,
+    "best_text": "- 011 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_360",
+    "centroid": [
+      5230.67,
+      4457.06
+    ],
+    "exit_point": [
+      5215.978994728336,
+      4419.855506130201
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_361",
+    "centroid": [
+      1803.18,
+      4422.95
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_362",
+    "centroid": [
+      6862.04,
+      4908.41
+    ],
+    "exit_point": [
+      6847.888803664552,
+      4870.996852013288
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_363",
+    "centroid": [
+      6563.87,
+      4433.91
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_364",
+    "centroid": [
+      2088.12,
+      4382.19
+    ],
+    "exit_point": [
+      2087.6400153592626,
+      4442.188080092154
+    ],
+    "is_corridor": true,
+    "best_text": "- 06 ST"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_365",
+    "centroid": [
+      1803.5,
+      4378.68
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_366",
+    "centroid": [
+      6641.1,
+      4409.81
+    ],
+    "exit_point": [
+      6646.504528189333,
+      4449.443206721772
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_367",
+    "centroid": [
+      6668.53,
+      4393.22
+    ],
+    "exit_point": [
+      6636.31747046841,
+      4342.600310736074
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_368",
+    "centroid": [
+      6519.32,
+      4364.76
+    ],
+    "exit_point": [
+      6558.775756953285,
+      4358.1840405077855
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_369",
+    "centroid": [
+      5842.0,
+      4431.5
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_37",
+    "centroid": [
+      4947.23,
+      3585.36
+    ],
+    "exit_point": [
+      4889.7844632932,
+      3900.1615411532603
+    ],
+    "is_corridor": true,
+    "best_text": "- 119 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_370",
+    "centroid": [
+      6695.66,
+      4382.8
+    ],
+    "exit_point": [
+      6663.447470468411,
+      4332.180310736074
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_371",
+    "centroid": [
+      4353.91,
+      4398.98
+    ],
+    "exit_point": [
+      4310.916641960765,
+      4489.266051882392
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_372",
+    "centroid": [
+      5240.81,
+      4367.38
+    ],
+    "exit_point": [
+      5201.054650613056,
+      4371.797261042994
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_374",
+    "centroid": [
+      1803.25,
+      4334.67
+    ],
+    "exit_point": [
+      1683.25,
+      4334.67
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_375",
+    "centroid": [
+      2011.16,
+      4363.76
+    ],
+    "exit_point": [
+      2003.7179159246475,
+      4423.29667260282
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_376",
+    "centroid": [
+      4329.11,
+      4316.39
+    ],
+    "exit_point": [
+      4306.3416008467875,
+      4349.277687665752
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_377",
+    "centroid": [
+      6800.1,
+      4336.71
+    ],
+    "exit_point": [
+      6762.088755455369,
+      4244.215971608064
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_378",
+    "centroid": [
+      1803.46,
+      4291.02
+    ],
+    "exit_point": [
+      1782.0579060620726,
+      4234.966896829238
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_38",
+    "centroid": [
+      4795.46,
+      3587.37
+    ],
+    "exit_point": [
+      4707.177032486775,
+      3696.025960016277
+    ],
+    "is_corridor": true,
+    "best_text": "- 118 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_380",
+    "centroid": [
+      2364.43,
+      4369.27
+    ],
+    "exit_point": [
+      2371.872084075352,
+      4309.733327397181
+    ],
+    "is_corridor": true,
+    "best_text": "2.4M CORRIDOR LIFT VIDE"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_381",
+    "centroid": [
+      4748.77,
+      4267.68
+    ],
+    "exit_point": [
+      4732.217882227953,
+      4304.094659098504
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_382",
+    "centroid": [
+      6785.1,
+      4351.49
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_383",
+    "centroid": [
+      5578.99,
+      4273.68
+    ],
+    "exit_point": [
+      5601.195286060664,
+      4329.419799703301
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_384",
+    "centroid": [
+      6063.62,
+      4341.63
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_386",
+    "centroid": [
+      5335.58,
+      4284.13
+    ],
+    "exit_point": [
+      5365.822556529876,
+      4358.193403746636
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_387",
+    "centroid": [
+      1852.57,
+      4247.33
+    ],
+    "exit_point": [
+      1772.57,
+      4247.33
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_388",
+    "centroid": [
+      2234.52,
+      4209.01
+    ],
+    "exit_point": [
+      2194.52,
+      4209.01
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_389",
+    "centroid": [
+      2080.16,
+      4224.26
+    ],
+    "exit_point": [
+      2089.861425001453,
+      4263.065700005814
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_39",
+    "centroid": [
+      4642.9,
+      3580.58
+    ],
+    "exit_point": [
+      4729.442628548112,
+      3530.4763729458296
+    ],
+    "is_corridor": true,
+    "best_text": "- 117 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_390",
+    "centroid": [
+      5390.7,
+      4230.47
+    ],
+    "exit_point": [
+      5354.180418153546,
+      4182.864116521588
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_391",
+    "centroid": [
+      5042.77,
+      4211.11
+    ],
+    "exit_point": [
+      5048.043628617782,
+      4270.877791001522
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_392",
+    "centroid": [
+      4496.66,
+      4264.43
+    ],
+    "exit_point": [
+      4457.634291386805,
+      4194.59452142902
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_393",
+    "centroid": [
+      4896.45,
+      4214.69
+    ],
+    "exit_point": [
+      4839.94548530431,
+      4194.509816180111
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_394",
+    "centroid": [
+      1742.28,
+      4206.25
+    ],
+    "exit_point": [
+      1725.7278822279527,
+      4169.835340901496
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_395",
+    "centroid": [
+      1852.91,
+      4203.84
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_396",
+    "centroid": [
+      5682.33,
+      4629.67
+    ],
+    "exit_point": [
+      5698.321820672477,
+      4666.334174224703
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_398",
+    "centroid": [
+      6285.05,
+      4252.19
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_4",
+    "centroid": [
+      2290.88,
+      4629.34
+    ],
+    "exit_point": [
+      2610.88,
+      4629.34
+    ],
+    "is_corridor": true,
+    "best_text": "- 004 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_40",
+    "centroid": [
+      4492.96,
+      3583.41
+    ],
+    "exit_point": [
+      4420.087659579256,
+      3895.0020762818003
+    ],
+    "is_corridor": true,
+    "best_text": "- 116"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_400",
+    "centroid": [
+      1852.82,
+      4159.67
+    ],
+    "exit_point": [
+      1772.82,
+      4159.67
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_401",
+    "centroid": [
+      4438.26,
+      4185.53
+    ],
+    "exit_point": [
+      4475.713167102762,
+      4171.485062336464
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_402",
+    "centroid": [
+      5240.03,
+      4164.92
+    ],
+    "exit_point": [
+      5302.499504755442,
+      4243.006880944303
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_403",
+    "centroid": [
+      1802.34,
+      4115.56
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_404",
+    "centroid": [
+      6029.04,
+      4143.17
+    ],
+    "exit_point": [
+      5993.976857968816,
+      4162.420352487708
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_405",
+    "centroid": [
+      6039.76,
+      4129.32
+    ],
+    "exit_point": [
+      6054.782086717646,
+      4166.3920502622595
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_406",
+    "centroid": [
+      6026.74,
+      4117.47
+    ],
+    "exit_point": [
+      6062.23984307207,
+      4099.037389174118
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_407",
+    "centroid": [
+      1868.17,
+      4078.7
+    ],
+    "exit_point": [
+      1882.8919380402951,
+      4041.507735477149
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_408",
+    "centroid": [
+      5253.78,
+      4143.45
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_41",
+    "centroid": [
+      5410.37,
+      3591.4
+    ],
+    "exit_point": [
+      5327.579087092147,
+      3704.2966994197986
+    ],
+    "is_corridor": true,
+    "best_text": "- 122 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_410",
+    "centroid": [
+      6041.19,
+      4102.42
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_411",
+    "centroid": [
+      6507.0,
+      4162.0
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_412",
+    "centroid": [
+      5839.69,
+      4073.46
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_413",
+    "centroid": [
+      1928.02,
+      4590.47
+    ],
+    "exit_point": [
+      1938.11687588588,
+      4551.765309104127
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_414",
+    "centroid": [
+      4877.47,
+      4111.68
+    ],
+    "exit_point": [
+      4762.028441528441,
+      4144.440442268956
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_415",
+    "centroid": [
+      6033.05,
+      4091.16
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_416",
+    "centroid": [
+      5070.44,
+      4106.47
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_417",
+    "centroid": [
+      1766.3,
+      4059.8
+    ],
+    "exit_point": [
+      1823.2209978830308,
+      4078.7736659610105
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_418",
+    "centroid": [
+      5293.22,
+      4089.56
+    ],
+    "exit_point": [
+      5318.82737598658,
+      4120.288851183895
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_419",
+    "centroid": [
+      4659.39,
+      4068.37
+    ],
+    "exit_point": [
+      4693.037139015062,
+      4090.00030365254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_42",
+    "centroid": [
+      6578.1,
+      3334.17
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "- 131 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_420",
+    "centroid": [
+      5886.84,
+      4054.3
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_421",
+    "centroid": [
+      6042.36,
+      4077.32
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_422",
+    "centroid": [
+      5084.34,
+      4084.82
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_424",
+    "centroid": [
+      5078.86,
+      4009.3
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_425",
+    "centroid": [
+      4876.31,
+      4009.95
+    ],
+    "exit_point": [
+      4844.31,
+      4033.95
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_426",
+    "centroid": [
+      1789.48,
+      4025.45
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_427",
+    "centroid": [
+      5658.0,
+      4082.0
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_428",
+    "centroid": [
+      1803.3,
+      3984.17
+    ],
+    "exit_point": [
+      1923.2510503752833,
+      3980.7428271321346
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_429",
+    "centroid": [
+      4835.34,
+      4044.22
+    ],
+    "exit_point": [
+      4795.595539654031,
+      4048.734185619542
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_43",
+    "centroid": [
+      6465.91,
+      3345.26
+    ],
+    "exit_point": [
+      6531.15032700789,
+      3513.0208408774333
+    ],
+    "is_corridor": true,
+    "best_text": "- 129a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_430",
+    "centroid": [
+      6320.31,
+      4020.06
+    ],
+    "exit_point": [
+      6282.989933665428,
+      4034.4548827290496
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_431",
+    "centroid": [
+      5805.16,
+      4001.57
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_432",
+    "centroid": [
+      5744.03,
+      4411.64
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_433",
+    "centroid": [
+      5529.79,
+      4087.62
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_434",
+    "centroid": [
+      1803.97,
+      3940.5
+    ],
+    "exit_point": [
+      1923.9237304783262,
+      3937.1679519311574
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_435",
+    "centroid": [
+      5795.67,
+      4021.09
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_436",
+    "centroid": [
+      5596.36,
+      3931.47
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_437",
+    "centroid": [
+      5609.84,
+      3951.45
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_438",
+    "centroid": [
+      1804.01,
+      3896.7
+    ],
+    "exit_point": [
+      1923.9637304783262,
+      3893.367951931157
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_439",
+    "centroid": [
+      5578.86,
+      3886.09
+    ],
+    "exit_point": [
+      5518.86,
+      3886.09
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_44",
+    "centroid": [
+      6330.75,
+      3375.86
+    ],
+    "exit_point": [
+      6395.771357980656,
+      3543.7058310663433
+    ],
+    "is_corridor": true,
+    "best_text": "- 127 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_440",
+    "centroid": [
+      6658.84,
+      3881.1
+    ],
+    "exit_point": [
+      6578.84,
+      3881.1
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_441",
+    "centroid": [
+      5986.0,
+      3949.0
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_442",
+    "centroid": [
+      6760.1,
+      3880.42
+    ],
+    "exit_point": [
+      6704.099263627817,
+      3901.9587447585322
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_443",
+    "centroid": [
+      1804.18,
+      3852.85
+    ],
+    "exit_point": [
+      1924.1337304783262,
+      3849.5179519311573
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_444",
+    "centroid": [
+      6851.75,
+      3893.18
+    ],
+    "exit_point": [
+      6918.314023547027,
+      3937.556015698018
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_445",
+    "centroid": [
+      5755.57,
+      3866.86
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_446",
+    "centroid": [
+      5769.13,
+      3886.13
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_447",
+    "centroid": [
+      6147.26,
+      3914.18
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_448",
+    "centroid": [
+      5741.46,
+      3820.11
+    ],
+    "exit_point": [
+      5647.827082243096,
+      3855.2223441588394
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_449",
+    "centroid": [
+      6138.14,
+      3910.16
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_45",
+    "centroid": [
+      6214.51,
+      3399.16
+    ],
+    "exit_point": [
+      6267.659107106394,
+      3458.952745494693
+    ],
+    "is_corridor": true,
+    "best_text": "-129 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_450",
+    "centroid": [
+      1803.66,
+      3809.02
+    ],
+    "exit_point": [
+      1923.6137304783263,
+      3805.6879519311574
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_451",
+    "centroid": [
+      6907.91,
+      3820.54
+    ],
+    "exit_point": [
+      6961.8804895145595,
+      3794.325762235785
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_452",
+    "centroid": [
+      5888.09,
+      4071.74
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_453",
+    "centroid": [
+      5926.45,
+      3797.28
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_454",
+    "centroid": [
+      5937.7,
+      3817.28
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_455",
+    "centroid": [
+      1803.46,
+      3765.02
+    ],
+    "exit_point": [
+      1923.4137304783262,
+      3761.6879519311574
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_456",
+    "centroid": [
+      5904.9,
+      3754.47
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_457",
+    "centroid": [
+      1980.33,
+      4355.33
+    ],
+    "exit_point": [
+      1940.3495984720603,
+      4354.0780041275175
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_458",
+    "centroid": [
+      6075.07,
+      3735.48
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_459",
+    "centroid": [
+      6086.13,
+      3757.09
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_46",
+    "centroid": [
+      6122.28,
+      3411.54
+    ],
+    "exit_point": [
+      6175.952874029812,
+      3540.8428328900022
+    ],
+    "is_corridor": true,
+    "best_text": "-128 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_460",
+    "centroid": [
+      1803.51,
+      3721.17
+    ],
+    "exit_point": [
+      1923.4610503752833,
+      3717.7428271321346
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_461",
+    "centroid": [
+      6060.35,
+      3691.18
+    ],
+    "exit_point": [
+      6000.813327397181,
+      3698.622084075352
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_462",
+    "centroid": [
+      6291.0,
+      3759.33
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_463",
+    "centroid": [
+      1804.1,
+      3677.07
+    ],
+    "exit_point": [
+      1924.053730478326,
+      3673.7379519311576
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_464",
+    "centroid": [
+      6411.47,
+      3834.24
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_465",
+    "centroid": [
+      1802.86,
+      3634.5
+    ],
+    "exit_point": [
+      1922.813730478326,
+      3631.1679519311574
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_466",
+    "centroid": [
+      1862.93,
+      5270.01
+    ],
+    "exit_point": [
+      1642.9379444211534,
+      5271.879620868942
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_467",
+    "centroid": [
+      6295.43,
+      3595.81
+    ],
+    "exit_point": [
+      6228.865976452973,
+      3640.1860156980183
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_468",
+    "centroid": [
+      6761.6,
+      3653.3
+    ],
+    "exit_point": [
+      6980.508181846198,
+      3675.1908181846197
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_469",
+    "centroid": [
+      6430.43,
+      3588.93
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_47",
+    "centroid": [
+      6018.6,
+      3447.75
+    ],
+    "exit_point": [
+      6073.89781167739,
+      3505.561348571816
+    ],
+    "is_corridor": true,
+    "best_text": "-"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_470",
+    "centroid": [
+      1975.09,
+      3568.9
+    ],
+    "exit_point": [
+      1935.2131506802662,
+      3565.76361859283
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_471",
+    "centroid": [
+      6587.11,
+      3566.32
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_472",
+    "centroid": [
+      6511.39,
+      3576.65
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_473",
+    "centroid": [
+      6661.91,
+      3325.04
+    ],
+    "exit_point": [
+      6661.232131258268,
+      3285.045744237841
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_474",
+    "centroid": [
+      5953.54,
+      3275.0
+    ],
+    "exit_point": [
+      5953.54,
+      3335.0
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_475",
+    "centroid": [
+      5646.58,
+      3275.0
+    ],
+    "exit_point": [
+      5636.716060761679,
+      3334.1836354299285
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_476",
+    "centroid": [
+      4726.79,
+      3274.97
+    ],
+    "exit_point": [
+      4766.79,
+      3274.97
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_477",
+    "centroid": [
+      5200.41,
+      3267.03
+    ],
+    "exit_point": [
+      5141.226364570071,
+      3257.1660607616786
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_478",
+    "centroid": [
+      5069.34,
+      3270.5
+    ],
+    "exit_point": [
+      5071.2426059766185,
+      3230.5452744910226
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_48",
+    "centroid": [
+      5874.42,
+      3471.49
+    ],
+    "exit_point": [
+      5974.37645606619,
+      3474.4407440905147
+    ],
+    "is_corridor": true,
+    "best_text": "- 125 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_480",
+    "centroid": [
+      5072.38,
+      3169.69
+    ],
+    "exit_point": [
+      5074.875131446207,
+      3209.6121031393154
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_481",
+    "centroid": [
+      6588.0,
+      3161.0
+    ],
+    "exit_point": [
+      6589.276306889435,
+      3101.013576196576
+    ],
+    "is_corridor": true,
+    "best_text": "- 09 ST"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_482",
+    "centroid": [
+      5258.63,
+      3201.51
+    ],
+    "exit_point": [
+      5219.582517592642,
+      3210.1872183127466
+    ],
+    "is_corridor": true,
+    "best_text": "WIDE"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_483",
+    "centroid": [
+      6844.0,
+      3316.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_484",
+    "centroid": [
+      6714.99,
+      3161.94
+    ],
+    "exit_point": [
+      6675.455132093975,
+      3155.8577126298424
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_485",
+    "centroid": [
+      6913.0,
+      3171.67
+    ],
+    "exit_point": [
+      6973.0,
+      3171.67
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_486",
+    "centroid": [
+      6775.0,
+      3171.67
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_487",
+    "centroid": [
+      6602.0,
+      3063.0
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_488",
+    "centroid": [
+      3671.0,
+      3025.5
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_489",
+    "centroid": [
+      3346.0,
+      3025.5
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_49",
+    "centroid": [
+      5720.27,
+      3504.06
+    ],
+    "exit_point": [
+      5804.769986360412,
+      3707.184967212527
+    ],
+    "is_corridor": true,
+    "best_text": "- 124 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_491",
+    "centroid": [
+      6660.62,
+      3040.96
+    ],
+    "exit_point": [
+      6720.6171167015045,
+      3041.548207026485
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_492",
+    "centroid": [
+      6579.06,
+      3040.02
+    ],
+    "exit_point": [
+      6577.282661017189,
+      2960.039745773471
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_493",
+    "centroid": [
+      5286.85,
+      3052.06
+    ],
+    "exit_point": [
+      5346.0452058716755,
+      3105.8738235197047
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_494",
+    "centroid": [
+      6826.65,
+      2997.45
+    ],
+    "exit_point": [
+      6717.2855280409585,
+      2948.0595933088202
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_495",
+    "centroid": [
+      4223.59,
+      2820.73
+    ],
+    "exit_point": [
+      4183.5927038902255,
+      2820.264915161514
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_496",
+    "centroid": [
+      4459.0,
+      2773.5
+    ],
+    "exit_point": [
+      4459.487801916981,
+      2913.4991501734557
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_497",
+    "centroid": [
+      6769.56,
+      2759.13
+    ],
+    "exit_point": [
+      6748.980169782899,
+      2958.06835876531
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_498",
+    "centroid": [
+      6892.93,
+      2625.75
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_499",
+    "centroid": [
+      2018.3,
+      2942.82
+    ],
+    "exit_point": [
+      1658.3,
+      2942.82
+    ],
+    "is_corridor": true,
+    "best_text": ". DN FLR FROM GR"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_5",
+    "centroid": [
+      3273.27,
+      4624.88
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "- 052 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_50",
+    "centroid": [
+      5558.99,
+      3541.43
+    ],
+    "exit_point": [
+      5646.900760927161,
+      3849.1176632450633
+    ],
+    "is_corridor": true,
+    "best_text": "- 123 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_500",
+    "centroid": [
+      5925.76,
+      2544.55
+    ],
+    "exit_point": [
+      5941.5167719431665,
+      2581.3158012007225
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_501",
+    "centroid": [
+      6764.55,
+      2699.49
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_502",
+    "centroid": [
+      5659.05,
+      2542.25
+    ],
+    "exit_point": [
+      5659.05,
+      2482.25
+    ],
+    "is_corridor": true,
+    "best_text": "831 B2"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_503",
+    "centroid": [
+      4619.08,
+      2531.52
+    ],
+    "exit_point": [
+      4583.302912360004,
+      2513.631456180002
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_504",
+    "centroid": [
+      2323.07,
+      2476.81
+    ],
+    "exit_point": [
+      2327.8070701942124,
+      2516.5285116283967
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_505",
+    "centroid": [
+      2323.07,
+      2454.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_506",
+    "centroid": [
+      2323.07,
+      2432.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_507",
+    "centroid": [
+      2321.8,
+      2410.95
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_508",
+    "centroid": [
+      2321.8,
+      2388.95
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_509",
+    "centroid": [
+      2321.8,
+      2366.95
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_51",
+    "centroid": [
+      4326.28,
+      3206.04
+    ],
+    "exit_point": [
+      4186.599441535138,
+      3215.4920678660433
+    ],
+    "is_corridor": true,
+    "best_text": "- 095 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_510",
+    "centroid": [
+      4314.87,
+      2449.21
+    ],
+    "exit_point": [
+      4394.731949853999,
+      2453.9077617561175
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_511",
+    "centroid": [
+      2321.4,
+      2344.96
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_512",
+    "centroid": [
+      2321.16,
+      2323.02
+    ],
+    "exit_point": [
+      2400.9566959864587,
+      2317.3202360009673
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_513",
+    "centroid": [
+      2321.16,
+      2301.02
+    ],
+    "exit_point": [
+      2400.9566959864587,
+      2295.3202360009673
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_514",
+    "centroid": [
+      2322.52,
+      2279.14
+    ],
+    "exit_point": [
+      2402.316695986459,
+      2273.440236000967
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_515",
+    "centroid": [
+      2321.07,
+      2257.02
+    ],
+    "exit_point": [
+      2400.866695986459,
+      2251.3202360009673
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_516",
+    "centroid": [
+      2322.45,
+      2235.14
+    ],
+    "exit_point": [
+      2402.2466959864587,
+      2229.440236000967
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_517",
+    "centroid": [
+      2322.45,
+      2213.14
+    ],
+    "exit_point": [
+      2402.2466959864587,
+      2207.440236000967
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_518",
+    "centroid": [
+      4323.48,
+      2253.18
+    ],
+    "exit_point": [
+      4324.079970002249,
+      2313.177000224981
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_519",
+    "centroid": [
+      2322.86,
+      2191.49
+    ],
+    "exit_point": [
+      2402.656695986459,
+      2185.790236000967
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_52",
+    "centroid": [
+      2295.45,
+      3194.3
+    ],
+    "exit_point": [
+      1977.4659515236524,
+      3230.1628626101146
+    ],
+    "is_corridor": true,
+    "best_text": "- 014 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_520",
+    "centroid": [
+      2321.83,
+      2169.6
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_521",
+    "centroid": [
+      2323.07,
+      2147.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_522",
+    "centroid": [
+      4308.01,
+      2167.42
+    ],
+    "exit_point": [
+      4307.410029997751,
+      2107.422999775019
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_523",
+    "centroid": [
+      2323.07,
+      2125.81
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_525",
+    "centroid": [
+      2276.3,
+      2056.89
+    ],
+    "exit_point": [
+      2254.1119921509912,
+      2090.1720117735135
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_526",
+    "centroid": [
+      2420.5,
+      2136.05
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_527",
+    "centroid": [
+      2296.58,
+      2035.07
+    ],
+    "exit_point": [
+      2216.783304013541,
+      2029.3702360009672
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_529",
+    "centroid": [
+      2315.8,
+      2015.16
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_53",
+    "centroid": [
+      3815.91,
+      3193.69
+    ],
+    "exit_point": [
+      3935.89663622692,
+      3195.48084531682
+    ],
+    "is_corridor": true,
+    "best_text": "- 066 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_530",
+    "centroid": [
+      3201.52,
+      2013.67
+    ],
+    "exit_point": [
+      3121.52,
+      2013.67
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_531",
+    "centroid": [
+      3362.37,
+      2010.36
+    ],
+    "exit_point": [
+      3314.37,
+      2074.3599999999997
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_532",
+    "centroid": [
+      4217.58,
+      1870.72
+    ],
+    "exit_point": [
+      4177.58,
+      1870.72
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_533",
+    "centroid": [
+      3992.85,
+      1872.92
+    ],
+    "exit_point": [
+      3952.85,
+      1872.92
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_534",
+    "centroid": [
+      4065.49,
+      1872.87
+    ],
+    "exit_point": [
+      4125.448890026006,
+      1870.649300369407
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_535",
+    "centroid": [
+      3349.38,
+      1849.68
+    ],
+    "exit_point": [
+      3429.310645847388,
+      1846.3495564230257
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_536",
+    "centroid": [
+      2266.5,
+      1795.0
+    ],
+    "exit_point": [
+      2206.652478010156,
+      1790.7251770007254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_537",
+    "centroid": [
+      2266.5,
+      1773.0
+    ],
+    "exit_point": [
+      2206.652478010156,
+      1768.7251770007254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_538",
+    "centroid": [
+      4319.71,
+      1905.03
+    ],
+    "exit_point": [
+      4249.909518724023,
+      1865.9417304854526
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_539",
+    "centroid": [
+      2266.5,
+      1751.0
+    ],
+    "exit_point": [
+      2206.652478010156,
+      1746.7251770007254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_54",
+    "centroid": [
+      2424.72,
+      3038.86
+    ],
+    "exit_point": [
+      2604.72,
+      3038.86
+    ],
+    "is_corridor": true,
+    "best_text": "- 015 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_540",
+    "centroid": [
+      2266.5,
+      1729.0
+    ],
+    "exit_point": [
+      2206.652478010156,
+      1724.7251770007254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_541",
+    "centroid": [
+      2913.33,
+      1742.0
+    ],
+    "exit_point": [
+      2853.33,
+      1742.0
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_542",
+    "centroid": [
+      2266.77,
+      1707.18
+    ],
+    "exit_point": [
+      2326.243674040958,
+      1715.1098232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_543",
+    "centroid": [
+      2266.77,
+      1685.18
+    ],
+    "exit_point": [
+      2326.243674040958,
+      1693.1098232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_544",
+    "centroid": [
+      2266.77,
+      1663.18
+    ],
+    "exit_point": [
+      2326.243674040958,
+      1671.1098232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_545",
+    "centroid": [
+      3033.67,
+      1674.48
+    ],
+    "exit_point": [
+      3024.6756197320497,
+      1713.4556478277848
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_546",
+    "centroid": [
+      2266.77,
+      1641.18
+    ],
+    "exit_point": [
+      2326.243674040958,
+      1649.1098232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_547",
+    "centroid": [
+      3435.72,
+      1652.23
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "CONTROL FIRE ROOM"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_548",
+    "centroid": [
+      3280.72,
+      1654.48
+    ],
+    "exit_point": [
+      3281.2137895312667,
+      1614.4830479673913
+    ],
+    "is_corridor": true,
+    "best_text": "- 30002330 LOBBY SERUFT"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_549",
+    "centroid": [
+      2266.18,
+      1619.5
+    ],
+    "exit_point": [
+      2325.653674040958,
+      1627.4298232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_55",
+    "centroid": [
+      3809.75,
+      3032.93
+    ],
+    "exit_point": [
+      3805.6508840647584,
+      2933.0140490784906
+    ],
+    "is_corridor": true,
+    "best_text": "- 065 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_550",
+    "centroid": [
+      2266.18,
+      1597.5
+    ],
+    "exit_point": [
+      2325.653674040958,
+      1605.4298232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_551",
+    "centroid": [
+      3616.61,
+      1637.84
+    ],
+    "exit_point": [
+      3621.1739832430812,
+      1557.9702932460818
+    ],
+    "is_corridor": true,
+    "best_text": "- 01 3000 LOBBY UFT WIDE"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_552",
+    "centroid": [
+      2266.18,
+      1575.5
+    ],
+    "exit_point": [
+      2325.653674040958,
+      1583.4298232054612
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_553",
+    "centroid": [
+      3183.62,
+      1771.67
+    ],
+    "exit_point": [
+      3184.920641079368,
+      1691.6805736188674
+    ],
+    "is_corridor": true,
+    "best_text": "51-01"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_554",
+    "centroid": [
+      2265.59,
+      1553.81
+    ],
+    "exit_point": [
+      2324.98696961967,
+      1562.2952813742386
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_555",
+    "centroid": [
+      2265.91,
+      1531.82
+    ],
+    "exit_point": [
+      2325.757521989844,
+      1536.0948229992746
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_556",
+    "centroid": [
+      3551.73,
+      1525.81
+    ],
+    "exit_point": [
+      3573.918007849009,
+      1559.0920117735136
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_557",
+    "centroid": [
+      2266.5,
+      1510.0
+    ],
+    "exit_point": [
+      2206.652478010156,
+      1505.7251770007254
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_558",
+    "centroid": [
+      2266.5,
+      1488.0
+    ],
+    "exit_point": [
+      2326.347521989844,
+      1492.2748229992746
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_559",
+    "centroid": [
+      3069.69,
+      1486.05
+    ],
+    "exit_point": [
+      3069.69,
+      1526.05
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_56",
+    "centroid": [
+      3612.76,
+      3123.84
+    ],
+    "exit_point": [
+      3732.6304103293683,
+      3118.264632077704
+    ],
+    "is_corridor": true,
+    "best_text": "- 064 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_560",
+    "centroid": [
+      2266.5,
+      1466.0
+    ],
+    "exit_point": [
+      2326.347521989844,
+      1470.2748229992746
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_561",
+    "centroid": [
+      2266.5,
+      1444.0
+    ],
+    "exit_point": [
+      2326.347521989844,
+      1448.2748229992746
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_562",
+    "centroid": [
+      3653.83,
+      1442.89
+    ],
+    "exit_point": [
+      3616.3482971467347,
+      1489.7421285665819
+    ],
+    "is_corridor": true,
+    "best_text": "- 2550x2250 804 FL"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_563",
+    "centroid": [
+      3550.28,
+      1443.17
+    ],
+    "exit_point": [
+      3494.1002493458577,
+      1464.2374064953035
+    ],
+    "is_corridor": true,
+    "best_text": "- EL PO3"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_564",
+    "centroid": [
+      3631.29,
+      1334.99
+    ],
+    "exit_point": [
+      3635.853983243081,
+      1414.859706753918
+    ],
+    "is_corridor": true,
+    "best_text": "- 021 LIFT LOBBY"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_565",
+    "centroid": [
+      2210.27,
+      1992.4
+    ],
+    "exit_point": [
+      2208.0815021319145,
+      2032.3400860925635
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_567",
+    "centroid": [
+      4430.52,
+      1551.47
+    ],
+    "exit_point": [
+      4510.52,
+      1551.47
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_569",
+    "centroid": [
+      3304.07,
+      1330.63
+    ],
+    "exit_point": [
+      3290.6257860785095,
+      1550.2188273843485
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_57",
+    "centroid": [
+      3427.91,
+      3128.34
+    ],
+    "exit_point": [
+      3347.4115528100074,
+      3289.336894379985
+    ],
+    "is_corridor": true,
+    "best_text": "- 063 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_570",
+    "centroid": [
+      3215.19,
+      992.18
+    ],
+    "exit_point": [
+      3273.299575955811,
+      977.2375376113629
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_571",
+    "centroid": [
+      2727.67,
+      1027.33
+    ],
+    "exit_point": [
+      2745.8102152575057,
+      1084.5220675479682
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_572",
+    "centroid": [
+      2359.8,
+      1364.74
+    ],
+    "exit_point": [
+      2356.7710873359233,
+      1464.694117914538
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_573",
+    "centroid": [
+      2622.21,
+      989.5
+    ],
+    "exit_point": [
+      2577.4886404500044,
+      900.0572809000084
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_574",
+    "centroid": [
+      1672.69,
+      3160.73
+    ],
+    "exit_point": [
+      1672.490666926947,
+      3200.729503325991
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_575",
+    "centroid": [
+      2306.91,
+      932.82
+    ],
+    "exit_point": [
+      2324.9481111852556,
+      990.0443527256391
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_576",
+    "centroid": [
+      2726.0,
+      908.67
+    ],
+    "exit_point": [
+      2715.7481967859094,
+      870.0060564497157
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_577",
+    "centroid": [
+      2810.96,
+      951.94
+    ],
+    "exit_point": [
+      2815.561789933084,
+      1011.763269130095
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_578",
+    "centroid": [
+      2371.0,
+      886.33
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_579",
+    "centroid": [
+      2920.29,
+      898.91
+    ],
+    "exit_point": [
+      2897.5408042054023,
+      822.2127113210704
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_580",
+    "centroid": [
+      2444.11,
+      890.94
+    ],
+    "exit_point": [
+      2500.4976054093063,
+      870.4354162147978
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_581",
+    "centroid": [
+      2934.03,
+      943.99
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_582",
+    "centroid": [
+      3042.52,
+      885.94
+    ],
+    "exit_point": [
+      3047.121789933084,
+      945.763269130095
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_583",
+    "centroid": [
+      2359.9,
+      847.33
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_584",
+    "centroid": [
+      2335.33,
+      819.33
+    ],
+    "exit_point": [
+      2325.6983222650288,
+      780.5069297451932
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_585",
+    "centroid": [
+      4456.0,
+      908.67
+    ],
+    "exit_point": [
+      4516.0,
+      908.67
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_586",
+    "centroid": [
+      4301.33,
+      900.0
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_587",
+    "centroid": [
+      4379.52,
+      809.62
+    ],
+    "exit_point": [
+      4502.435404735581,
+      707.1904960536832
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_588",
+    "centroid": [
+      3010.9,
+      1036.9
+    ],
+    "exit_point": [
+      3000.597648843893,
+      998.2494946908032
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_589",
+    "centroid": [
+      3658.67,
+      729.1
+    ],
+    "exit_point": [
+      3628.9587458916717,
+      654.8218647291793
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_590",
+    "centroid": [
+      3770.09,
+      680.24
+    ],
+    "exit_point": [
+      3756.9192682926832,
+      621.7034146341464
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_591",
+    "centroid": [
+      3998.67,
+      674.33
+    ],
+    "exit_point": [
+      4013.1049884637187,
+      732.567712077762
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_592",
+    "centroid": [
+      2686.33,
+      735.67
+    ],
+    "exit_point": [
+      2654.176324031876,
+      711.8762797835882
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_593",
+    "centroid": [
+      3781.02,
+      721.78
+    ],
+    "exit_point": [
+      3819.9432114996002,
+      712.5613446448315
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_594",
+    "centroid": [
+      3892.84,
+      675.45
+    ],
+    "exit_point": [
+      3864.108872159166,
+      622.776265625137
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_595",
+    "centroid": [
+      3335.22,
+      780.28
+    ],
+    "exit_point": [
+      3366.5342380060265,
+      896.1222138000733
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_596",
+    "centroid": [
+      4070.8,
+      610.52
+    ],
+    "exit_point": [
+      4057.22752429838,
+      552.0752576930231
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_597",
+    "centroid": [
+      4352.07,
+      566.59
+    ],
+    "exit_point": [
+      4507.617881267206,
+      529.1085828271791
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_598",
+    "centroid": [
+      4406.33,
+      357.33
+    ],
+    "exit_point": [
+      4464.689013866524,
+      343.393519076651
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_599",
+    "centroid": [
+      4341.82,
+      350.02
+    ],
+    "exit_point": [
+      4326.939855382891,
+      291.8944350894209
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_6",
+    "centroid": [
+      3115.42,
+      4653.06
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "- 051 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_60",
+    "centroid": [
+      4316.37,
+      3043.56
+    ],
+    "exit_point": [
+      4292.119016552656,
+      2926.0360032936396
+    ],
+    "is_corridor": true,
+    "best_text": "- 094 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_61",
+    "centroid": [
+      5424.39,
+      3077.13
+    ],
+    "exit_point": [
+      5344.914209355928,
+      3086.2732325519733
+    ],
+    "is_corridor": true,
+    "best_text": "- 105 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_62",
+    "centroid": [
+      5221.76,
+      3016.56
+    ],
+    "exit_point": [
+      5221.76,
+      2936.56
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_63",
+    "centroid": [
+      5157.09,
+      3047.44
+    ],
+    "exit_point": [
+      5107.114396195646,
+      2984.9704952445577
+    ],
+    "is_corridor": true,
+    "best_text": "-"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_64",
+    "centroid": [
+      5055.65,
+      3048.21
+    ],
+    "exit_point": [
+      5133.874193126192,
+      3031.44767290153
+    ],
+    "is_corridor": true,
+    "best_text": "- 102a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_65",
+    "centroid": [
+      4961.22,
+      3126.53
+    ],
+    "exit_point": [
+      5044.652001512636,
+      3263.0550933843137
+    ],
+    "is_corridor": true,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_66",
+    "centroid": [
+      4841.79,
+      3114.15
+    ],
+    "exit_point": [
+      4841.79,
+      2934.15
+    ],
+    "is_corridor": true,
+    "best_text": "- 101 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_67",
+    "centroid": [
+      4720.14,
+      3103.54
+    ],
+    "exit_point": [
+      4715.141927896737,
+      2923.6094042825107
+    ],
+    "is_corridor": true,
+    "best_text": "- 101a SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_68",
+    "centroid": [
+      4602.67,
+      3113.59
+    ],
+    "exit_point": [
+      4602.67,
+      2933.59
+    ],
+    "is_corridor": true,
+    "best_text": "- 100 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_69",
+    "centroid": [
+      4491.26,
+      3112.7
+    ],
+    "exit_point": [
+      4414.178567229605,
+      3134.1115091028873
+    ],
+    "is_corridor": true,
+    "best_text": "099"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_7",
+    "centroid": [
+      2962.11,
+      4685.64
+    ],
+    "exit_point": [
+      2882.3133040135413,
+      4679.940236000967
+    ],
+    "is_corridor": true,
+    "best_text": "- 050 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_70",
+    "centroid": [
+      6486.47,
+      3071.55
+    ],
+    "exit_point": [
+      6486.47,
+      2931.55
+    ],
+    "is_corridor": true,
+    "best_text": "- 114 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_71",
+    "centroid": [
+      6343.33,
+      3072.13
+    ],
+    "exit_point": [
+      6344.638354077844,
+      2932.1361136706073
+    ],
+    "is_corridor": true,
+    "best_text": "- 113 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_72",
+    "centroid": [
+      6181.47,
+      3071.38
+    ],
+    "exit_point": [
+      6271.095815953027,
+      2963.8290208563676
+    ],
+    "is_corridor": true,
+    "best_text": "- 112 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_73",
+    "centroid": [
+      6030.03,
+      3072.82
+    ],
+    "exit_point": [
+      5946.03,
+      2960.82
+    ],
+    "is_corridor": true,
+    "best_text": "- 111 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_74",
+    "centroid": [
+      5870.5,
+      3071.77
+    ],
+    "exit_point": [
+      5963.127029192158,
+      2966.792700248887
+    ],
+    "is_corridor": true,
+    "best_text": "- 109 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_75",
+    "centroid": [
+      5719.1,
+      3071.71
+    ],
+    "exit_point": [
+      5749.4702640946125,
+      2935.043811574247
+    ],
+    "is_corridor": true,
+    "best_text": "- 108 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_76",
+    "centroid": [
+      5562.3,
+      3071.83
+    ],
+    "exit_point": [
+      5559.844237545941,
+      2931.851540118598
+    ],
+    "is_corridor": true,
+    "best_text": "- 106 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_77",
+    "centroid": [
+      2621.23,
+      2704.91
+    ],
+    "exit_point": [
+      2621.23,
+      2744.91
+    ],
+    "is_corridor": true,
+    "best_text": "- 015 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_78",
+    "centroid": [
+      4177.1,
+      2635.02
+    ],
+    "exit_point": [
+      4277.020095872179,
+      2631.023196165113
+    ],
+    "is_corridor": true,
+    "best_text": "- 093 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_79",
+    "centroid": [
+      2621.54,
+      2594.61
+    ],
+    "exit_point": [
+      2735.7834273542317,
+      2557.8888983504257
+    ],
+    "is_corridor": true,
+    "best_text": "- 016 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_8",
+    "centroid": [
+      2307.78,
+      4495.79
+    ],
+    "exit_point": [
+      2212.128942221519,
+      4423.327077440545
+    ],
+    "is_corridor": true,
+    "best_text": "- 005 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_80",
+    "centroid": [
+      4040.99,
+      2585.13
+    ],
+    "exit_point": [
+      3950.1940615499548,
+      2627.035817746175
+    ],
+    "is_corridor": true,
+    "best_text": "- 090 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_81",
+    "centroid": [
+      3536.07,
+      2530.62
+    ],
+    "exit_point": [
+      3536.07,
+      2630.62
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_82",
+    "centroid": [
+      2936.62,
+      2517.75
+    ],
+    "exit_point": [
+      2856.62,
+      2517.75
+    ],
+    "is_corridor": true,
+    "best_text": "- 033 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_83",
+    "centroid": [
+      4181.99,
+      2487.03
+    ],
+    "exit_point": [
+      4237.460019622523,
+      2570.235029433785
+    ],
+    "is_corridor": true,
+    "best_text": "- 091 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_84",
+    "centroid": [
+      2621.29,
+      2450.13
+    ],
+    "exit_point": [
+      2741.29,
+      2450.13
+    ],
+    "is_corridor": true,
+    "best_text": "- 017 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_85",
+    "centroid": [
+      4178.56,
+      2371.47
+    ],
+    "exit_point": [
+      4176.796056903887,
+      2311.4959347321387
+    ],
+    "is_corridor": true,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_86",
+    "centroid": [
+      4039.73,
+      2380.08
+    ],
+    "exit_point": [
+      3939.7337156074104,
+      2380.942036934419
+    ],
+    "is_corridor": true,
+    "best_text": "- 088 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_87",
+    "centroid": [
+      2620.28,
+      2339.02
+    ],
+    "exit_point": [
+      2694.7794223764604,
+      2309.868052113559
+    ],
+    "is_corridor": true,
+    "best_text": "- SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_88",
+    "centroid": [
+      3680.12,
+      2440.65
+    ],
+    "exit_point": [
+      3800.0600533862084,
+      2444.442570858062
+    ],
+    "is_corridor": true,
+    "best_text": "- 038 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_89",
+    "centroid": [
+      3534.68,
+      2360.75
+    ],
+    "exit_point": [
+      3478.533473549716,
+      2466.8045499616474
+    ],
+    "is_corridor": true,
+    "best_text": ""
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_9",
+    "centroid": [
+      3150.05,
+      4381.99
+    ],
+    "exit_point": [
+      2890.0629990250814,
+      4379.390129990251
+    ],
+    "is_corridor": true,
+    "best_text": "- 049 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_90",
+    "centroid": [
+      3410.97,
+      2429.01
+    ],
+    "exit_point": [
+      3399.4506929806657,
+      2628.677988335122
+    ],
+    "is_corridor": true,
+    "best_text": "- 036"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_91",
+    "centroid": [
+      3261.77,
+      2434.5
+    ],
+    "exit_point": [
+      3275.3747776274754,
+      2634.036738536308
+    ],
+    "is_corridor": true,
+    "best_text": "- 035 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_92",
+    "centroid": [
+      3094.73,
+      2440.65
+    ],
+    "exit_point": [
+      2974.750444478246,
+      2438.434992821137
+    ],
+    "is_corridor": true,
+    "best_text": "- 034 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_93",
+    "centroid": [
+      2938.96,
+      2353.19
+    ],
+    "exit_point": [
+      2858.96,
+      2353.19
+    ],
+    "is_corridor": true,
+    "best_text": "- 032 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_94",
+    "centroid": [
+      4039.34,
+      2257.33
+    ],
+    "exit_point": [
+      3939.34,
+      2257.33
+    ],
+    "is_corridor": true,
+    "best_text": "- 086 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_95",
+    "centroid": [
+      4181.31,
+      2254.04
+    ],
+    "exit_point": null,
+    "is_corridor": false,
+    "best_text": "- 087 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_96",
+    "centroid": [
+      2627.46,
+      2222.99
+    ],
+    "exit_point": [
+      2626.983824520282,
+      2162.9918895554824
+    ],
+    "is_corridor": true,
+    "best_text": "019"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_97",
+    "centroid": [
+      3115.57,
+      2198.24
+    ],
+    "exit_point": [
+      3115.7878644067,
+      2098.24023732478
+    ],
+    "is_corridor": true,
+    "best_text": "- 031 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_98",
+    "centroid": [
+      3563.42,
+      2198.63
+    ],
+    "exit_point": [
+      3803.42,
+      2198.63
+    ],
+    "is_corridor": true,
+    "best_text": "- 039 SHOP"
+  },
+  {
+    "block": "Block_2",
+    "unit": "Unit_99",
+    "centroid": [
+      4176.31,
+      2151.23
+    ],
+    "exit_point": [
+      4176.31,
+      2071.23
+    ],
+    "is_corridor": true,
+    "best_text": "- 085 SHOP"
+  }
+]

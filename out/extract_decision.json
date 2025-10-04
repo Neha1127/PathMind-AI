@@ -1,0 +1,45 @@
+{
+  "requested_mode": "auto",
+  "color_pixel_fraction_probe": 0.08121637580727686,
+  "selected_mode": "color",
+  "auto_reason": "strict_color_frac>=0.02",
+  "mode": "color",
+  "units_found": 599,
+  "orange_pixel_fraction": 0.0750373298887378,
+  "outputs": {
+    "units_csv": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\units_POLYGON.csv",
+    "centers_csv": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\unit_centers.csv",
+    "overlay_units": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\units_overlay.jpg",
+    "overlay_centers": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\unit_centers_overlay.jpg",
+    "debug_mask": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\debug_color_mask.jpg",
+    "debug_white_all": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\debug_white_all.jpg",
+    "debug_white_units": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\debug_white_units.jpg",
+    "debug_combined_mask": "C:\\Users\\HP\\OneDrive\\Desktop\\LAYOUT_AI (3)\\LAYOUT_AI\\out\\debug_combined_mask.jpg"
+  },
+  "hsv_ranges_used": [
+    [
+      [
+        4,
+        40,
+        140
+      ],
+      [
+        22,
+        255,
+        255
+      ]
+    ],
+    [
+      [
+        22,
+        30,
+        170
+      ],
+      [
+        32,
+        255,
+        255
+      ]
+    ]
+  ]
+}
